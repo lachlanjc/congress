@@ -14,6 +14,7 @@
     "gatsby-plugin-styled-components": "^2.0.7",
     "gatsby-remark-images": "^1.5.46",
     "gatsby-source-filesystem": "^1.5.20",
+    "gatsby-transformer-json": "^1.0.15",
     "lodash": "^4.17.5",
     "react-helmet": "^5.2.0",
     "serve": "^6.4.9",
@@ -36,6 +37,7 @@
     "dev": "gatsby develop",
     "fmt": "prettier --no-semi --single-quote --write 'src/**/**/*.js'",
     "card": "repng src/card.js -w 512 -h 512 -o static -f card",
+    "download": "node data/download.js",
     "build": "gatsby build",
     "start": "serve public"
   }

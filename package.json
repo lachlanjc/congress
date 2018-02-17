@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@hackclub/design-system": "^0.0.1-8",
+    "axios": "^0.17.1",
     "gatsby": "^1.9.201",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",

@@ -1,0 +1,41 @@
+{
+  "name": "congress",
+  "description": "Congress unwrapped",
+  "version": "1.0.0",
+  "author": "Lachlan Campbell",
+  "private": true,
+  "dependencies": {
+    "@hackclub/design-system": "^0.0.1-8",
+    "gatsby": "^1.9.201",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-resolve-src": "^1.0.0",
+    "gatsby-plugin-styled-components": "^2.0.7",
+    "gatsby-remark-images": "^1.5.46",
+    "gatsby-source-filesystem": "^1.5.20",
+    "lodash": "^4.17.5",
+    "react-helmet": "^5.2.0",
+    "serve": "^6.4.9",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2"
+  },
+  "homepage": "https://congress.lachlanjc.me/",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lachlanjc/congress.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "fmt": "prettier --no-semi --single-quote --write 'src/**/**/*.js'",
+    "card": "repng src/card.js -w 512 -h 512 -o static -f card",
+    "build": "gatsby build",
+    "start": "serve public"
+  }
+}

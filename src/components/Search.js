@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import {
   trim,
   isEmpty,
@@ -24,6 +24,7 @@ import {
   Input,
   Label
 } from '@hackclub/design-system'
+import Group from 'components/profile/Group'
 import Spinner from 'respin'
 
 import data from '../../data/people.json'
@@ -122,22 +123,12 @@ class Search extends Component {
             onClick={e => !isEmpty(trim(address)) && this.fetchData()}
           />
         </Searcher>
-        <Section profiles={[rep]} label="Your Representative" />
-        <Section profiles={[rep, rep]} label="Your Senators" />
+        <Group profiles={[rep]} label="Your Representative" />
+        <Group profiles={[rep, rep]} label="Your Senators" />
       </section>
     )
   }
 }
-
-const Section = ({ profiles, label, children }) =>
-  isEmpty(first(profiles)) ? null : (
-    <Fragment>
-      <Heading.h2 mt={4} f={2} color="muted" caps regular children={label} />
-      {profiles.map(profile => (
-        <Profile my={3} data={profile} key={profile.name.last} />
-      ))}
-    </Fragment>
-  )
 
 const Searcher = Flex.extend`
   div {

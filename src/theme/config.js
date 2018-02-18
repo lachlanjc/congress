@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { injectGlobal, ThemeProvider as Root } from 'styled-components'
 import { theme as baseTheme } from '@hackclub/design-system'
 import palx from 'palx'
@@ -17,17 +17,18 @@ export const grays = {
 
 export const brand = {
   primary,
-  accent: palette.red[7],
-  brand: palette.violet[7],
-  success: palette.teal[7],
-  info: palette.blue[7],
-  warning: palette.orange[7],
+  accent: palette.red[5],
+  brand: palette.violet[5],
+  success: palette.teal[5],
+  info: palette.blue[5],
+  warning: palette.orange[5],
   error: palette.red[7],
   muted: grays.silver,
 
-  dem: palette.blue[7],
-  rep: palette.red[7],
-  ind: palette.violet[7]
+  dem: palette.blue[5],
+  rep: palette.red[5],
+  ind: palette.violet[5],
+  lib: palette.orange[5]
 }
 
 export const colors = {

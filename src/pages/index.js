@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import {
@@ -20,7 +20,7 @@ const Mark = Text.withComponent('mark').extend`
 `
 
 export default () => (
-  <main>
+  <Fragment>
     <BackgroundImage
       image="/hero.jpg"
       bg="primary"
@@ -46,7 +46,5 @@ export default () => (
       </Heading.h2>
       <Search />
     </Container>
-  </main>
+  </Fragment>
 )
-
-// export const pageQuery = graphql``

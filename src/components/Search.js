@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import {
   trim,
   isEmpty,
@@ -131,12 +131,12 @@ class Search extends Component {
 
 const Section = ({ profiles, label, children }) =>
   isEmpty(first(profiles)) ? null : (
-    <section>
+    <Fragment>
       <Heading.h2 mt={4} f={2} color="muted" caps regular children={label} />
       {profiles.map(profile => (
         <Profile my={3} data={profile} key={profile.name.last} />
       ))}
-    </section>
+    </Fragment>
   )
 
 const Searcher = Flex.extend`

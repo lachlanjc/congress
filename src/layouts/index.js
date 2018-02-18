@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import ThemeProvider from '../theme'
-import { Text, mediaQueries } from '@hackclub/design-system'
 import Link from 'gatsby-link'
 
 const title = 'Congress'

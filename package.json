@@ -16,7 +16,9 @@
     "gatsby-source-filesystem": "^1.5.20",
     "gatsby-transformer-json": "^1.0.15",
     "lodash": "^4.17.5",
+    "neat-csv": "^2.1.0",
     "react-helmet": "^5.2.0",
+    "respin": "^1.0.1",
     "serve": "^6.4.9",
     "styled-components": "^3.1.6"
   },

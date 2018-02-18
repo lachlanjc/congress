@@ -8,6 +8,7 @@ import {
   keys,
   find,
   filter,
+  first,
   last,
   words,
   upperCase,
@@ -100,9 +101,9 @@ class Search extends Component {
     const { loading, address, rep } = this.state
     return (
       <section>
-        <Searcher align="flex-end" mb={2}>
+        <Searcher align="flex-end" my={3}>
           <Box mr={2} mb={0}>
-            <Label htmlFor="address" mb={1} bold>
+            <Label htmlFor="address" mb={2} f={2} color="muted" caps>
               Enter your U.S. address
             </Label>
             <Input
@@ -110,19 +111,31 @@ class Search extends Component {
               id="address"
               placeholder="1 Infinite Loop, Cupertino, CA"
               onChange={e => this.onKey(e.target.value, e.key)}
+              bg="white"
             />
           </Box>
           <Button
-            bg="accent"
+            bg="brand"
             children={loading ? <Spinner /> : 'Search'}
             onClick={e => !isEmpty(trim(address)) && this.fetchData()}
           />
         </Searcher>
-        {isEmpty(rep) ? <Box /> : <Profile my={4} data={rep} />}
+        <Section profiles={[rep]} label="Your Representative" />
+        <Section profiles={[rep, rep]} label="Your Senators" />
       </section>
     )
   }
 }
+
+const Section = ({ profiles, label, children }) =>
+  isEmpty(first(profiles)) ? null : (
+    <section>
+      <Heading.h2 mt={4} f={2} color="muted" caps regular children={label} />
+      {profiles.map(profile => (
+        <Profile my={3} data={profile} key={profile.name.last} />
+      ))}
+    </section>
+  )
 
 const Searcher = Flex.extend`
   div {

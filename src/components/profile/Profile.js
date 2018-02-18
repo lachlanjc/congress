@@ -28,7 +28,11 @@ const Profile = ({ data, ...props }) => (
         mr={3}
       />
       <Box>
-        <Heading.h3 children={data.name.official_full} />
+        <Heading.h4
+          f={4}
+          fontWeight="bold"
+          children={data.name.official_full}
+        />
         <Text color="muted" f={2}>
           {data.term.state}-
           {data.term.district.toString.length === 1 ? 0 : null}
@@ -37,9 +41,9 @@ const Profile = ({ data, ...props }) => (
         </Text>
       </Box>
     </Flex>
-    <Heading.h4 mt={3} fontWeight="bold">
+    <Heading.h5 f={3} mt={3} fontWeight="bold">
       Contact
-    </Heading.h4>
+    </Heading.h5>
     <Contact
       phone={data.term.phone}
       callCount={4}

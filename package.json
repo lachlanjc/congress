@@ -7,7 +7,7 @@
   "dependencies": {
     "@hackclub/design-system": "^0.0.1-8",
     "axios": "^0.17.1",
-    "gatsby": "^1.9.201",
+    "gatsby": "^1.9.202",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-react-next": "^1.0.9",
@@ -18,10 +18,14 @@
     "gatsby-transformer-json": "^1.0.15",
     "lodash": "^4.17.5",
     "neat-csv": "^2.1.0",
+    "p-break": "^1.0.0",
+    "p-series": "^1.0.0",
+    "p-waterfall": "^1.0.0",
     "react-helmet": "^5.2.0",
     "respin": "^1.0.1",
-    "serve": "^6.4.9",
-    "styled-components": "^3.1.6"
+    "serve": "^6.4.10",
+    "styled-components": "^3.1.6",
+    "write-json-file": "^2.3.0"
   },
   "devDependencies": {
     "prettier": "^1.10.2"

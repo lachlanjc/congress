@@ -63,7 +63,9 @@ class Search extends Component {
       ),
       '&'
     )
-    const keyMatch = key =>
+    const senKeyMatch = key =>
+      key.match(/ocd-division\/country:us\/state:(\w+)/)
+    const repKeyMatch = key =>
       key.match(
         /ocd-division\/country:us\/(?:state|district):(\w+)(?:\/cd:)(\d+)/
       )

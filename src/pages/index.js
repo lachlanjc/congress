@@ -40,9 +40,9 @@ export default () => (
         </Heading.h2>
       </Container>
     </BackgroundImage>
-    <Container w={1} maxWidth={36} py={4}>
+    <Container w={1} maxWidth={36} py={4} px={3}>
       <Heading.h2 f={4} mb={2}>
-        Find your members of Congress
+        Find your Congresspeople
       </Heading.h2>
       <Search />
     </Container>

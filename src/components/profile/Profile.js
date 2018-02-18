@@ -15,19 +15,19 @@ const PARTIES = 'Republican' | 'Democrat' | 'Independent'
 const getYear = date => date.slice(0, 4)
 
 const Profile = ({ data, ...props }) => (
-  <Card bg="white" p={[3, 4]} mx={[null, -4]} boxShadowSize="md" {...props}>
-    <Flex style={{ position: 'relative' }}>
+  <Card bg="white" p={[3, 4]} mx={[-3, -4]} boxShadowSize="md" {...props}>
+    <Flex align="center" style={{ position: 'relative' }}>
       <BadgeContainer>
         <Badge party={data.term.party} />
       </BadgeContainer>
       <Avi
-        size="72px"
+        size={64}
         src={`https://theunitedstates.io/images/congress/225x275/${
           data.id.bioguide
         }.jpg`}
         mr={3}
       />
-      <Box>
+      <Box align="left">
         <Heading.h4
           f={4}
           fontWeight="bold"

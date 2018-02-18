@@ -7,10 +7,10 @@ import {
   Heading,
   Text,
   Button,
-  Box,
-  Flex
+  Box
 } from '@hackclub/design-system'
 import Search from 'components/Search'
+import Footer from 'components/Footer'
 
 const Mark = Text.withComponent('mark').extend`
   background: transparent url(/underline.svg) bottom left no-repeat;
@@ -21,6 +21,7 @@ const Mark = Text.withComponent('mark').extend`
 
 export default () => (
   <Fragment>
+    <Helmet title="Take back Congress" />
     <BackgroundImage
       image="/hero.jpg"
       bg="primary"
@@ -46,5 +47,6 @@ export default () => (
       </Heading.h2>
       <Search />
     </Container>
+    <Footer />
   </Fragment>
 )

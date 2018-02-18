@@ -23,7 +23,7 @@ const Profile = ({ data, ...props }) => (
       <Avi
         size={64}
         src={`https://theunitedstates.io/images/congress/225x275/${
-          data.id.bioguide
+          data.ids.bioguide
         }.jpg`}
         mr={3}
       />

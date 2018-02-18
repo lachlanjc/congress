@@ -1,16 +1,9 @@
 module.exports = {
   plugins: [
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/data/states`,
-    //     name: 'states'
-    //   }
-    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/data/people.json`,
+        path: `${__dirname}/data`,
         name: 'people'
       }
     },

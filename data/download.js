@@ -26,7 +26,11 @@ const getPeople = () =>
         profile.gender = profile.bio.gender
         delete profile.bio
         profile.term = last(profile.terms)
+        delete profile.term.rss_url
+        delete profile.term.state_rank
+        delete profile.term.class
         delete profile.terms
+        delete profile.leadership_roles
         // attach social
         const account = find(accounts, ['id.bioguide', bioguide])
         if (account) profile.social = account.social

@@ -9,7 +9,7 @@ import {
   Flex
 } from '@hackclub/design-system'
 import Contact from './Contact'
-import { lowerCase } from 'lodash'
+import { lowerCase, random } from 'lodash'
 
 const PARTIES = 'Republican' | 'Democrat' | 'Independent'
 const getYear = date => date.slice(0, 4)
@@ -34,10 +34,9 @@ const Profile = ({ data, ...props }) => (
           children={data.name.official_full}
         />
         <Text color="muted" f={2}>
-          {data.term.state}-
-          {data.term.district.toString.length === 1 ? 0 : null}
-          {data.term.district}
-          , current term {getYear(data.term.start)}–{getYear(data.term.end)}
+          {data.chamber === 'rep' ? `${data.id}, c` : 'C'}
+          {'urrent term '}
+          {getYear(data.term.start)}–{getYear(data.term.end)}
         </Text>
       </Box>
     </Flex>
@@ -46,7 +45,7 @@ const Profile = ({ data, ...props }) => (
     </Heading.h5>
     <Contact
       phone={data.term.phone}
-      callCount={4}
+      callCount={random(4, 64)}
       form={data.term.contact_form}
       twitter={data.social.twitter}
       facebook={data.social.facebook}

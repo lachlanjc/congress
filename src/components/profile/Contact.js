@@ -1,13 +1,12 @@
 import React from 'react'
-import { Circle, Box, Flex, Link } from '@hackclub/design-system'
-import { replace } from 'lodash'
+import { Box, Flex, Link, Text } from '@hackclub/design-system'
 
 const Base = Flex.extend.attrs({ mt: 2 })`line-height: 0;`
 
 const Contact = ({ phone, callCount, form, twitter, facebook, ...props }) => (
   <Base mx={[-1, -2]} {...props}>
     {phone && <Phone data={phone} />}
-    {address && <Form data={address} />}
+    {callCount && <Calling data={phone} count={callCount} />}
     {form && <Form data={form} />}
     {twitter && <Twitter data={twitter} />}
     {facebook && <Facebook data={facebook} />}
@@ -33,18 +32,33 @@ const Item = ({ href, label, icon, bg = 'brand', ...props }) => (
     href={href}
     target="_blank"
     aria-label={label}
+    title={label}
     icon={icon}
     bg={bg}
   />
 )
 
+const tel = data => `tel:${data.match(/\d+/g).join('')}`
 const Phone = ({ data }) => (
   <Item
-    href={`tel:${replace(data, /\D/, '')}`}
+    href={tel(data)}
     label={`Phone number: ${data}`}
     icon="phone"
     bg="brand"
   />
+)
+const FlexLink = Link.extend`
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+`
+const Calling = ({ count, data }) => (
+  <FlexLink href={tel(data)} pl={1} pr={3} color="brand">
+    <Text mb={3} w={1} f={3} bold children={count} />
+    <Text mt={1} f={0} caps>
+      calling
+    </Text>
+  </FlexLink>
 )
 
 const Form = ({ data }) => (

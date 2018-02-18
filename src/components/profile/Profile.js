@@ -40,9 +40,6 @@ const Profile = ({ data, ...props }) => (
         </Text>
       </Box>
     </Flex>
-    <Heading.h5 f={3} mt={3} fontWeight="bold">
-      Contact
-    </Heading.h5>
     <Contact
       phone={data.term.phone}
       callCount={random(4, 64)}

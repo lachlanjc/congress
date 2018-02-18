@@ -114,41 +114,37 @@ class Search extends Component {
   render() {
     const { loading, address, rep, sen0, sen1 } = this.state
     return (
-      <section>
-        <Searcher align="flex-end" my={3}>
-          <Box mr={2} mb={0} w={1}>
-            <Label htmlFor="address" mb={2} f={2} color="muted" caps>
-              Enter your U.S. address
-            </Label>
-            <Input
-              name="address"
-              id="address"
-              placeholder="1 Infinite Loop, Cupertino, CA"
-              onChange={e => this.onKey(e.target.value, e.key)}
-              bg="white"
-            />
-          </Box>
+      <Box my={3}>
+        <Label htmlFor="address" mb={2} f={2} color="muted" caps>
+          Enter your home (U.S.) address
+        </Label>
+        <Searcher align="flex-end" w={1}>
+          <Input
+            name="address"
+            id="address"
+            placeholder="1 Infinite Loop, Cupertino, CA"
+            onChange={e => this.onKey(e.target.value, e.key)}
+            bg="white"
+            style={{ maxWidth: '100%' }}
+          />
           <Button
-            bg="brand"
+            ml={2}
+            bg="accent"
             children={loading ? <Spinner /> : 'Search'}
             onClick={e => !isEmpty(trim(address)) && this.fetchData()}
           />
         </Searcher>
         <Group profiles={[rep]} label="Your Representative" />
         <Group profiles={[sen0, sen1]} label="Your Senators" />
-      </section>
+      </Box>
     )
   }
 }
 
 const Searcher = Flex.extend`
-  div {
-    flex: 1 1 auto;
-  }
   input,
   button {
     height: 36px;
-    max-width: none !important;
   }
 `
 

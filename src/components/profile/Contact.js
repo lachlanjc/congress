@@ -1,10 +1,12 @@
 import React from 'react'
-import { Box, Flex, Link, Text } from '@hackclub/design-system'
+import { Box, Flex, Link, Text, Icon, Button } from '@hackclub/design-system'
 
-const Base = Flex.extend.attrs({ mt: 2 })`line-height: 0;`
+const Base = Flex.extend`
+  line-height: 0;
+`
 
 const Contact = ({ phone, callCount, form, twitter, facebook, ...props }) => (
-  <Base mx={[-1, -2]} {...props}>
+  <Base mt={3} mr={[-1, -2]} align="center" {...props}>
     {phone && <Phone data={phone} />}
     {callCount && <Calling data={phone} count={callCount} />}
     {form && <Form data={form} />}
@@ -22,9 +24,13 @@ const ItemLink = Link.extend.attrs({ mx: [1, 2] })`
   background-size: 50%;
   background-position: center;
   flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
+  width: 36px;
+  height: 36px;
+  border-radius: 24px;
+  &:first-of-type {
+    width: 48px;
+    height: 48px;
+  }
 `
 
 const Item = ({ href, label, icon, bg = 'brand', ...props }) => (
@@ -35,29 +41,36 @@ const Item = ({ href, label, icon, bg = 'brand', ...props }) => (
     title={label}
     icon={icon}
     bg={bg}
+    color="white"
+    {...props}
   />
 )
 
 const tel = data => `tel:${data.match(/\d+/g).join('')}`
-const Phone = ({ data }) => (
-  <Item
-    href={tel(data)}
-    label={`Phone number: ${data}`}
-    icon="phone"
-    bg="brand"
-  />
-)
-const FlexLink = Link.extend`
+const PhoneButton = Button.extend`
   display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
 `
+const Phone = ({ data }) => (
+  <PhoneButton
+    href={tel(data)}
+    title={`Phone number: ${data}`}
+    aria-label={`Phone number: ${data}`}
+    bg="brand"
+  >
+    <Icon name="phone" size={24} mr={2} />
+    Call
+  </PhoneButton>
+)
+const FlexLink = Flex.withComponent(Link)
 const Calling = ({ count, data }) => (
-  <FlexLink href={tel(data)} pl={1} pr={3} color="brand">
-    <Text mb={3} w={1} f={3} bold children={count} />
-    <Text mt={1} f={0} caps>
+  <FlexLink flex="1 1 auto" align="center" href={tel(data)} px={[2, 3]}>
+    <Text.span f={3} color="brand" bold>
+      {count}
+    </Text.span>
+    <Text.span ml={1} mt={1} f={0} color="muted" caps>
       calling
-    </Text>
+    </Text.span>
   </FlexLink>
 )
 

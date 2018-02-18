@@ -75,8 +75,8 @@ class Search extends Component {
       .then(res => res.data)
       .then(res => {
         console.log('Res', res)
-        const divKey = find(keys(res.divisions), key => keyMatch(key))
-        const state = upperCase(keyMatch(divKey)[1])
+        const divKey = find(keys(res.divisions), key => repKeyMatch(key))
+        const state = upperCase(repKeyMatch(divKey)[1])
         const district = state === 'dc' ? 1 : toNumber(divKey.match(/\d+$/)[0])
 
         const record = res.divisions[divKey]
@@ -104,7 +104,7 @@ class Search extends Component {
     return (
       <section>
         <Searcher align="flex-end" my={3}>
-          <Box mr={2} mb={0}>
+          <Box mr={2} mb={0} w={1}>
             <Label htmlFor="address" mb={2} f={2} color="muted" caps>
               Enter your U.S. address
             </Label>
@@ -146,6 +146,7 @@ const Searcher = Flex.extend`
   input,
   button {
     height: 36px;
+    max-width: none !important;
   }
 `
 

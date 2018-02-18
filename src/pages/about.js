@@ -27,8 +27,9 @@ export default () => (
     </Box>
     <Container maxWidth={40} py={4} px={3}>
       <Text f={3} my={3}>
-        Built at CodeDay DC 2018. Totally open source. Built with React, Gatsby,
-        styled-components, and the Hack Club Design System.
+        Using data from the Center for Responsive Politics and
+        theunitedstates.io. Made at CodeDay DC 2018. Totally open source. Built
+        with React, Gatsby, styled-components, and the Hack Club Design System.
       </Text>
       <Divider my={4} />
       <Bio />

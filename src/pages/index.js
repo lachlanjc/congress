@@ -7,15 +7,17 @@ import {
   Heading,
   Text,
   Button,
-  Box
+  Box,
+  Card,
+  Link as A
 } from '@hackclub/design-system'
 import Search from 'components/Search'
 import Footer from 'components/Footer'
 
 const Mark = Text.withComponent('mark').extend`
   background: transparent url(/underline.svg) bottom left no-repeat;
-  background-size: 100% 0.5rem;
-  padding-bottom: 0.25rem;
+  background-size: 100% 0.75rem;
+  padding-bottom: 0.375rem;
   color: inherit;
 `
 
@@ -26,10 +28,10 @@ export default () => (
       image="/hero.jpg"
       bg="primary"
       py={[5, 6]}
-      px={3}
+      px={2}
       align="center"
     >
-      <Heading.h1 color="white" f={[5, 6]} mt={0}>
+      <Heading.h1 color="white" f={6} mt={0}>
         Let’s <Mark>take back</Mark> Congress.
       </Heading.h1>
       <Container w={1} maxWidth={36}>
@@ -41,11 +43,37 @@ export default () => (
         </Heading.h2>
       </Container>
     </BackgroundImage>
-    <Container w={1} maxWidth={36} py={4} px={3}>
+    <Container w={1} maxWidth={36} py={[4, 5]} px={3}>
       <Heading.h2 f={4} mb={2}>
-        Find your Congresspeople
+        Find out who represents you
       </Heading.h2>
       <Search />
+      <Card
+        p={[3, 4]}
+        mx={[-3, -4]}
+        bg="#fffae5"
+        boxShadowSize="md"
+        mt={[4, 5]}
+      >
+        <Heading.h2 f={4} mb={2}>
+          Why should I call?
+        </Heading.h2>
+        <Text color="steel" f={2}>
+          Calling your House Representative and State Senators is one of the
+          most effective ways to make your voice heard. Emails and letters are
+          often batched, and Tweets ignored, but speaking to a staffer on the
+          phone makes sure a real conversation happens with your
+          representatives. Check out Emily Ellsworth’s great{' '}
+          <A href="http://theslot.jezebel.com/how-to-effectively-lobby-your-congressperson-1788958124">
+            article
+          </A>
+          {' and '}
+          <A href="http://www.attn.com/stories/12768/former-congressional-staffer-explains-how-to-make-congressman-listen">
+            series of Tweets
+          </A>{' '}
+          to read more.
+        </Text>
+      </Card>
     </Container>
     <Footer />
   </Fragment>

@@ -38,7 +38,9 @@ class Search extends Component {
     this.state = {
       address: '',
       loading: false,
-      rep: {}
+      rep: {},
+      sen1: {},
+      sen2: {}
     }
   }
 
@@ -76,23 +78,32 @@ class Search extends Component {
       .then(res => res.data)
       .then(res => {
         console.log('Res', res)
+        window.res = res
         const divKey = find(keys(res.divisions), key => repKeyMatch(key))
         const state = upperCase(repKeyMatch(divKey)[1])
         const district = state === 'dc' ? 1 : toNumber(divKey.match(/\d+$/)[0])
 
         const record = res.divisions[divKey]
-        const official = res.officials[record.officeIndices[0] + 1]
-        console.log('Official', official)
+        const GRep = res.officials[record.officeIndices[0] + 1]
+        console.log('Official rep', GRep)
+
+        const GSens = filter(res.officials, o =>
+          includes(first(o.urls), 'senate.gov')
+        )
+        console.log('Official sens', GSens)
 
         if (state && district) {
-          const lastName = last(words(official.name))
-          const stateReps = filter(data, ['term.state', state])
-          // console.log(stateReps, lastName)
-          const rep = stateReps.find(r =>
-            includes(r.name.official_full, lastName)
+          const statePpl = filter(data, ['term.state', state])
+          const rep = find(
+            statePpl,
+            r =>
+              r.chamber === 'rep' &&
+              includes(r.name.official_full, last(words(GRep.name)))
           )
           console.log('Rep', rep)
-          this.setState({ loading: false, rep })
+          const sens = filter(statePpl, ['chamber', 'sen'])
+          console.log('Sens', sens)
+          this.setState({ loading: false, rep, sen0: sens[0], sen1: sens[1] })
         }
       })
       .catch(e => {
@@ -101,7 +112,7 @@ class Search extends Component {
   }
 
   render() {
-    const { loading, address, rep } = this.state
+    const { loading, address, rep, sen0, sen1 } = this.state
     return (
       <section>
         <Searcher align="flex-end" my={3}>
@@ -124,7 +135,7 @@ class Search extends Component {
           />
         </Searcher>
         <Group profiles={[rep]} label="Your Representative" />
-        <Group profiles={[rep, rep]} label="Your Senators" />
+        <Group profiles={[sen0, sen1]} label="Your Senators" />
       </section>
     )
   }

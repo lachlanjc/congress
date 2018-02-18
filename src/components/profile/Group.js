@@ -7,9 +7,12 @@ const Group = ({ profiles, label, children }) =>
   isEmpty(first(profiles)) ? null : (
     <Fragment>
       <Heading.h2 mt={4} f={2} color="muted" caps regular children={label} />
-      {profiles.map(profile => (
-        <Profile my={3} data={profile} key={profile.name.last} />
-      ))}
+      {profiles.map(
+        profile =>
+          !isEmpty(profile) && (
+            <Profile my={3} data={profile} key={profile.name.last} />
+          )
+      )}
     </Fragment>
   )
 

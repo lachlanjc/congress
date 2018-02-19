@@ -8,7 +8,8 @@ const {
   isEmpty,
   filter,
   pick,
-  set
+  set,
+  includes
 } = require('lodash')
 const fs = require('fs')
 const axios = require('axios')
@@ -67,12 +68,14 @@ const reduceData = profile => {
   delete profile.family
   delete profile.other_names
   delete profile.leadership_roles
-  delete profile.term.state_rank
-  delete profile.term.address
-  delete profile.term.rss_url
-  delete profile.term.class
-  delete profile.term.type
-  delete profile.term.rep
+  if (profile.term) {
+    delete profile.term.state_rank
+    delete profile.term.address
+    delete profile.term.rss_url
+    delete profile.term.class
+    delete profile.term.type
+    delete profile.term.rep
+  }
   delete profile.terms
   return profile
 }
@@ -84,14 +87,24 @@ const addContribs = profile => {
     name: record.ultorg,
     total: toNumber(record.total)
   })
-  axios(url)
-    .then(res => res.data)
-    .catch(err => {
-      console.error('⛔️', url)
-    })
-    .then(prev => set(profile, 'contribs', prev))
-    .then(() => process.stdout.write('.'))
-  return profile
+  return pWaterfall([
+    init =>
+      axios(url)
+        .then(res => res.data)
+        .catch(err => {
+          console.error('⛔️', url)
+        }),
+    data =>
+      isEmpty(data)
+        ? profile
+        : neatCsv(data)
+            .then(data => map(data, makeRecord))
+            .then(data => {
+              profile.contribs = data
+              process.stdout.write(`${profile.id} – `)
+              return profile
+            })
+  ])
 }
 const save = data => {
   fs.writeFile('./data/people.json', JSON.stringify(data), err => {
@@ -102,6 +115,9 @@ const save = data => {
     }
   })
 }
-getBaseData()
-  .then(fullData => map(fullData, reduceData))
-  .then(data => save(data))
+pWaterfall([
+  init => getBaseData(),
+  baseData => map(baseData, addContribs),
+  fullData => map(fullData, reduceData),
+  data => save(data)
+])

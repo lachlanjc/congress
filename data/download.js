@@ -1,6 +1,7 @@
 const { map, find, last, toNumber, isEmpty, filter, pick } = require('lodash')
 const fs = require('fs')
 const axios = require('axios')
+const got = require('got')
 const neatCsv = require('neat-csv')
 const pBreak = require('p-break')
 // const pSeries = require('p-series')
@@ -19,6 +20,8 @@ const getAccounts = () =>
     console.log('🍭 downloaded social media')
     return res.data
   })
+const findAccount = (profile, accounts) =>
+  find(accounts, ['id.bioguide', profile.id.bioguide])
 const makeId = term => {
   if (term.type === 'rep') {
     let { district } = term
@@ -28,41 +31,6 @@ const makeId = term => {
     return `${term.state}-sen-${term.class}`
   }
 }
-const getBaseData = () =>
-  Promise.all([getProfiles(), getAccounts()])
-    .catch(() => {
-      console.error('🚨 ERROR GETTING PEOPLE')
-    })
-    .then(([profiles, accounts]) =>
-      map(profiles, async function(profile) {
-        const term = last(profile.terms)
-        const account = find(accounts, ['id.bioguide', profile.id.bioguide])
-        const contribs = await getContribs(profile.id.opensecrets)
-        return {
-          id: makeId(term),
-          name: {
-            first: profile.name.first,
-            last: profile.name.last,
-            full: profile.name.official_full
-          },
-          contribs,
-          role: term.type,
-          state: term.state,
-          termStart: term.start,
-          termEnd: term.end,
-          gender: profile.bio.gender,
-          ids: pick(profile.id, ['opensecrets', 'bioguide']),
-          contact: {
-            form: term.contact_form,
-            phone: term.phone,
-            url: term.url,
-            ...(!isEmpty(account) &&
-              pick(account.contact, ['twitter', 'facebook']))
-          }
-        }
-      })
-    )
-
 const contribsUrl = id =>
   `https://www.opensecrets.org/members-of-congress/contributors.csv` +
   `?cid=${id}&cycle=2016&type=C`
@@ -92,8 +60,43 @@ async function getContribs(id) {
     }
   )
 }
+async function processProfile(profile, account) {
+  const term = last(profile.terms)
+  const contribs = await getContribs(profile.id.opensecrets)
+  return {
+    id: makeId(term),
+    name: {
+      first: profile.name.first,
+      last: profile.name.last,
+      full: profile.name.official_full
+    },
+    contribs,
+    role: term.type,
+    state: term.state,
+    termStart: term.start,
+    termEnd: term.end,
+    gender: profile.bio.gender,
+    ids: pick(profile.id, ['opensecrets', 'bioguide']),
+    contact: {
+      form: term.contact_form,
+      phone: term.phone,
+      url: term.url,
+      ...(!isEmpty(account) && pick(account.contact, ['twitter', 'facebook']))
+    }
+  }
+}
+async function getData() {
+  return await Promise.all([getProfiles(), getAccounts()])
+    .catch(() => {
+      console.error('🚨 ERROR GETTING PEOPLE')
+    })
+    .then(([profiles, accounts]) =>
+      map(profiles, p => processProfile(p, findAccount(p, accounts)))
+    )
+}
 const save = data => {
   writeJsonFile.sync('./data/people.json', data)
   console.log(`\n✅ Saved ${data.length} people`)
 }
-getBaseData().then(finalData => save(finalData))
+
+getData().then(data => save(data))

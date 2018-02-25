@@ -27,10 +27,8 @@ import {
 import Group from 'components/profile/Group'
 import Spinner from 'respin'
 
-import data from '../../data/people.json'
-// import Representative, { BlankRepresentative } from './Representative'
+import data from '../../data/data.json'
 import Profile from 'components/profile/Profile'
-const BlankProfile = Profile
 
 class Search extends Component {
   constructor(props) {
@@ -93,15 +91,14 @@ class Search extends Component {
         console.log('Official sens', GSens)
 
         if (state && district) {
-          const statePpl = filter(data, ['term.state', state])
+          const statePpl = filter(data, ['state', state])
           const rep = find(
             statePpl,
             r =>
-              r.chamber === 'rep' &&
-              includes(r.name.official_full, last(words(GRep.name)))
+              r.role === 'rep' && includes(r.name.full, last(words(GRep.name)))
           )
           console.log('Rep', rep)
-          const sens = filter(statePpl, ['chamber', 'sen'])
+          const sens = filter(statePpl, ['role', 'sen'])
           console.log('Sens', sens)
           this.setState({ loading: false, rep, sen0: sens[0], sen1: sens[1] })
         }

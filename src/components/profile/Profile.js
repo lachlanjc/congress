@@ -18,7 +18,7 @@ const Profile = ({ data, ...props }) => (
   <Card bg="white" p={[3, 4]} mx={[-3, -4]} boxShadowSize="md" {...props}>
     <Flex align="center" style={{ position: 'relative' }}>
       <BadgeContainer>
-        <Badge party={data.term.party} />
+        <Badge party={data.party} />
       </BadgeContainer>
       <Avi
         size={64}
@@ -28,24 +28,20 @@ const Profile = ({ data, ...props }) => (
         mr={3}
       />
       <Box align="left">
-        <Heading.h4
-          f={4}
-          fontWeight="bold"
-          children={data.name.official_full}
-        />
+        <Heading.h4 f={4} fontWeight="bold" children={data.name.full} />
         <Text color="muted" f={2}>
-          {data.chamber === 'rep' ? `${data.id}, c` : 'C'}
+          {data.role === 'rep' ? `${data.id}, c` : 'C'}
           {'urrent term '}
-          {getYear(data.term.start)}–{getYear(data.term.end)}
+          {getYear(data.termStart)}–{getYear(data.termEnd)}
         </Text>
       </Box>
     </Flex>
     <Contact
-      phone={data.term.phone}
+      phone={data.contact.phone}
       callCount={random(4, 64)}
-      form={data.term.contact_form}
-      twitter={data.social.twitter}
-      facebook={data.social.facebook}
+      form={data.contact.form}
+      twitter={data.contact.twitter}
+      facebook={data.contact.facebook}
     />
   </Card>
 )

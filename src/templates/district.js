@@ -21,10 +21,10 @@ export default ({ data: { markdownRemark } }) => {
 /*
 export const pageQuery = graphql`
   fragment ProfileFragment on PeopleJson {
-    chamber
+    role
     id
     name {
-      official_full
+      full
     }
     ids {
       bioguide

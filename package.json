@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@hackclub/design-system": "^0.0.1-8",
+    "async-retry": "^1.1.4",
     "axios": "^0.17.1",
     "gatsby": "^1.9.202",
     "gatsby-link": "^1.6.37",
@@ -16,11 +17,9 @@
     "gatsby-remark-images": "^1.5.46",
     "gatsby-source-filesystem": "^1.5.20",
     "gatsby-transformer-json": "^1.0.15",
+    "load-json-file": "^4.0.0",
     "lodash": "^4.17.5",
     "neat-csv": "^2.1.0",
-    "p-break": "^1.0.0",
-    "p-series": "^1.0.0",
-    "p-waterfall": "^1.0.0",
     "react-helmet": "^5.2.0",
     "respin": "^1.0.1",
     "serve": "^6.4.10",
@@ -31,9 +30,6 @@
     "prettier": "^1.10.2"
   },
   "homepage": "https://congress.lachlanjc.me/",
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "main": "n/a",
   "repository": {

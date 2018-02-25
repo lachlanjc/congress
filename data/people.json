@@ -7,6 +7,7 @@
 			"full": "Sherrod Brown"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "OH",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -29,6 +30,7 @@
 			"full": "Maria Cantwell"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -51,6 +53,7 @@
 			"full": "Benjamin L. Cardin"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -73,6 +76,7 @@
 			"full": "Thomas R. Carper"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "DE",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -95,6 +99,7 @@
 			"full": "Robert P. Casey, Jr."
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "PA",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -117,6 +122,7 @@
 			"full": "Bob Corker"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -139,6 +145,7 @@
 			"full": "Dianne Feinstein"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -161,6 +168,7 @@
 			"full": "Orrin G. Hatch"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "UT",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -183,6 +191,7 @@
 			"full": "Amy Klobuchar"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -205,6 +214,7 @@
 			"full": "Claire McCaskill"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MO",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -227,6 +237,7 @@
 			"full": "Robert Menendez"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -249,6 +260,7 @@
 			"full": "Bill Nelson"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -271,6 +283,7 @@
 			"full": "Bernard Sanders"
 		},
 		"role": "sen",
+		"party": "Independent",
 		"state": "VT",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -293,6 +306,7 @@
 			"full": "Debbie Stabenow"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MI",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -315,6 +329,7 @@
 			"full": "Jon Tester"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MT",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -337,6 +352,7 @@
 			"full": "Sheldon Whitehouse"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "RI",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -359,6 +375,7 @@
 			"full": "John Barrasso"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "WY",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -381,6 +398,7 @@
 			"full": "Roger F. Wicker"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "MS",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -403,6 +421,7 @@
 			"full": "Lamar Alexander"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -425,6 +444,7 @@
 			"full": "Thad Cochran"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "MS",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -447,6 +467,7 @@
 			"full": "Susan M. Collins"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "ME",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -469,6 +490,7 @@
 			"full": "John Cornyn"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -491,6 +513,7 @@
 			"full": "Richard J. Durbin"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -513,6 +536,7 @@
 			"full": "Michael B. Enzi"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "WY",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -535,6 +559,7 @@
 			"full": "Lindsey Graham"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -557,6 +582,7 @@
 			"full": "James M. Inhofe"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -579,6 +605,7 @@
 			"full": "Mitch McConnell"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -601,6 +628,7 @@
 			"full": "Jeff Merkley"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "OR",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -623,6 +651,7 @@
 			"full": "Jack Reed"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "RI",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -645,6 +674,7 @@
 			"full": "James E. Risch"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "ID",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -667,6 +697,7 @@
 			"full": "Pat Roberts"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "KS",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -689,6 +720,7 @@
 			"full": "Jeanne Shaheen"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NH",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -711,6 +743,7 @@
 			"full": "Tom Udall"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NM",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -733,6 +766,7 @@
 			"full": "Mark R. Warner"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "VA",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -755,6 +789,7 @@
 			"full": "Kirsten E. Gillibrand"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -777,6 +812,7 @@
 			"full": "Christopher A. Coons"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "DE",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -799,6 +835,7 @@
 			"full": "Joe Manchin, III"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "WV",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -821,6 +858,7 @@
 			"full": "Robert B. Aderholt"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -842,6 +880,7 @@
 			"full": "Justin Amash"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -863,6 +902,7 @@
 			"full": "Tammy Baldwin"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "WI",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -885,6 +925,7 @@
 			"full": "Lou Barletta"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -906,6 +947,7 @@
 			"full": "Joe Barton"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -927,6 +969,7 @@
 			"full": "Karen Bass"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -948,6 +991,7 @@
 			"full": "Michael F. Bennet"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -970,6 +1014,7 @@
 			"full": "Gus M. Bilirakis"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -991,6 +1036,7 @@
 			"full": "Rob Bishop"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "UT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1012,6 +1058,7 @@
 			"full": "Sanford D. Bishop, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1033,6 +1080,7 @@
 			"full": "Diane Black"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1054,6 +1102,7 @@
 			"full": "Marsha Blackburn"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1075,6 +1124,7 @@
 			"full": "Earl Blumenauer"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1096,6 +1146,7 @@
 			"full": "Richard Blumenthal"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -1118,6 +1169,7 @@
 			"full": "Roy Blunt"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -1140,6 +1192,7 @@
 			"full": "John Boozman"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AR",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -1162,6 +1215,7 @@
 			"full": "Madeleine Z. Bordallo"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "GU",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1183,6 +1237,7 @@
 			"full": "Kevin Brady"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1204,6 +1259,7 @@
 			"full": "Robert A. Brady"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1225,6 +1281,7 @@
 			"full": "Mo Brooks"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1246,6 +1303,7 @@
 			"full": "Vern Buchanan"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1267,6 +1325,7 @@
 			"full": "Larry Bucshon"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1288,6 +1347,7 @@
 			"full": "Michael C. Burgess"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1309,6 +1369,7 @@
 			"full": "Richard Burr"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -1331,6 +1392,7 @@
 			"full": "G. K. Butterfield"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1352,6 +1414,7 @@
 			"full": "Ken Calvert"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1373,6 +1436,7 @@
 			"full": "Shelley Moore Capito"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "WV",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -1395,6 +1459,7 @@
 			"full": "Michael E. Capuano"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1416,6 +1481,7 @@
 			"full": "André Carson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1437,6 +1503,7 @@
 			"full": "John R. Carter"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1458,6 +1525,7 @@
 			"full": "Bill Cassidy"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -1480,6 +1548,7 @@
 			"full": "Kathy Castor"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1501,6 +1570,7 @@
 			"full": "Steve Chabot"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1522,6 +1592,7 @@
 			"full": "Judy Chu"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1543,6 +1614,7 @@
 			"full": "David N. Cicilline"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "RI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1564,6 +1636,7 @@
 			"full": "Yvette D. Clarke"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1585,6 +1658,7 @@
 			"full": "Wm. Lacy Clay"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1606,6 +1680,7 @@
 			"full": "Emanuel Cleaver"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1627,6 +1702,7 @@
 			"full": "James E. Clyburn"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1648,6 +1724,7 @@
 			"full": "Mike Coffman"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1669,6 +1746,7 @@
 			"full": "Steve Cohen"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1690,6 +1768,7 @@
 			"full": "Tom Cole"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1711,6 +1790,7 @@
 			"full": "K. Michael Conaway"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1732,6 +1812,7 @@
 			"full": "Gerald E. Connolly"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1753,6 +1834,7 @@
 			"full": "Jim Cooper"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1774,6 +1856,7 @@
 			"full": "Jim Costa"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1795,6 +1878,7 @@
 			"full": "Joe Courtney"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1816,6 +1900,7 @@
 			"full": "Mike Crapo"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "ID",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -1838,6 +1923,7 @@
 			"full": "Eric A. \"Rick\" Crawford"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1859,6 +1945,7 @@
 			"full": "Joseph Crowley"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1880,6 +1967,7 @@
 			"full": "Henry Cuellar"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1901,6 +1989,7 @@
 			"full": "John Abney Culberson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1922,6 +2011,7 @@
 			"full": "Elijah E. Cummings"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1943,6 +2033,7 @@
 			"full": "Danny K. Davis"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1964,6 +2055,7 @@
 			"full": "Susan A. Davis"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -1985,6 +2077,7 @@
 			"full": "Peter A. DeFazio"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2006,6 +2099,7 @@
 			"full": "Diana DeGette"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2027,6 +2121,7 @@
 			"full": "Rosa L. DeLauro"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2048,6 +2143,7 @@
 			"full": "Jeff Denham"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2069,6 +2165,7 @@
 			"full": "Charles W. Dent"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2090,6 +2187,7 @@
 			"full": "Scott DesJarlais"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2111,6 +2209,7 @@
 			"full": "Theodore E. Deutch"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2132,6 +2231,7 @@
 			"full": "Mario Diaz-Balart"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2153,6 +2253,7 @@
 			"full": "Lloyd Doggett"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2174,6 +2275,7 @@
 			"full": "Joe Donnelly"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "IN",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -2196,6 +2298,7 @@
 			"full": "Michael F. Doyle"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2217,6 +2320,7 @@
 			"full": "Sean P. Duffy"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2238,6 +2342,7 @@
 			"full": "Jeff Duncan"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2259,6 +2364,7 @@
 			"full": "John J. Duncan, Jr."
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2280,6 +2386,7 @@
 			"full": "Keith Ellison"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2301,6 +2408,7 @@
 			"full": "Eliot L. Engel"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2322,6 +2430,7 @@
 			"full": "Anna G. Eshoo"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2343,6 +2452,7 @@
 			"full": "Blake Farenthold"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2364,6 +2474,7 @@
 			"full": "Jeff Flake"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AZ",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -2386,6 +2497,7 @@
 			"full": "Charles J. \"Chuck\" Fleischmann"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2407,6 +2519,7 @@
 			"full": "Bill Flores"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2428,6 +2541,7 @@
 			"full": "Jeff Fortenberry"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NE",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2449,6 +2563,7 @@
 			"full": "Virginia Foxx"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2470,6 +2585,7 @@
 			"full": "Rodney P. Frelinghuysen"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2491,6 +2607,7 @@
 			"full": "Marcia L. Fudge"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2512,6 +2629,7 @@
 			"full": "John Garamendi"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2533,6 +2651,7 @@
 			"full": "Cory Gardner"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "CO",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -2555,6 +2674,7 @@
 			"full": "Bob Gibbs"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2576,6 +2696,7 @@
 			"full": "Louie Gohmert"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2597,6 +2718,7 @@
 			"full": "Bob Goodlatte"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2618,6 +2740,7 @@
 			"full": "Paul A. Gosar"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2639,6 +2762,7 @@
 			"full": "Trey Gowdy"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2660,6 +2784,7 @@
 			"full": "Kay Granger"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2681,6 +2806,7 @@
 			"full": "Chuck Grassley"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "IA",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -2703,6 +2829,7 @@
 			"full": "Sam Graves"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2724,6 +2851,7 @@
 			"full": "Tom Graves"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2745,6 +2873,7 @@
 			"full": "Al Green"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2766,6 +2895,7 @@
 			"full": "Gene Green"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2787,6 +2917,7 @@
 			"full": "H. Morgan Griffith"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2808,6 +2939,7 @@
 			"full": "Raúl M. Grijalva"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2829,6 +2961,7 @@
 			"full": "Brett Guthrie"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2850,6 +2983,7 @@
 			"full": "Luis V. Gutiérrez"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2871,6 +3005,7 @@
 			"full": "Gregg Harper"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2892,6 +3027,7 @@
 			"full": "Andy Harris"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2913,6 +3049,7 @@
 			"full": "Vicky Hartzler"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2934,6 +3071,7 @@
 			"full": "Alcee L. Hastings"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2955,6 +3093,7 @@
 			"full": "Martin Heinrich"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NM",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -2977,6 +3116,7 @@
 			"full": "Jeb Hensarling"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -2998,6 +3138,7 @@
 			"full": "Jaime Herrera Beutler"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3019,6 +3160,7 @@
 			"full": "Brian Higgins"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3040,6 +3182,7 @@
 			"full": "James A. Himes"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3061,6 +3204,7 @@
 			"full": "Mazie K. Hirono"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "HI",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -3083,6 +3227,7 @@
 			"full": "John Hoeven"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "ND",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -3105,6 +3250,7 @@
 			"full": "Steny H. Hoyer"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3126,6 +3272,7 @@
 			"full": "Bill Huizenga"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3147,6 +3294,7 @@
 			"full": "Randy Hultgren"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3168,6 +3316,7 @@
 			"full": "Duncan Hunter"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3189,6 +3338,7 @@
 			"full": "Johnny Isakson"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -3211,6 +3361,7 @@
 			"full": "Darrell E. Issa"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3232,6 +3383,7 @@
 			"full": "Sheila Jackson Lee"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3253,6 +3405,7 @@
 			"full": "Lynn Jenkins"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3274,6 +3427,7 @@
 			"full": "Bill Johnson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3295,6 +3449,7 @@
 			"full": "Eddie Bernice Johnson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3316,6 +3471,7 @@
 			"full": "Henry C. \"Hank\" Johnson, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3337,6 +3493,7 @@
 			"full": "Ron Johnson"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -3359,6 +3516,7 @@
 			"full": "Sam Johnson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3380,6 +3538,7 @@
 			"full": "Walter B. Jones"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3401,6 +3560,7 @@
 			"full": "Jim Jordan"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3422,6 +3582,7 @@
 			"full": "Marcy Kaptur"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3443,6 +3604,7 @@
 			"full": "William R. Keating"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3464,6 +3626,7 @@
 			"full": "Mike Kelly"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3485,6 +3648,7 @@
 			"full": "Ron Kind"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3506,6 +3670,7 @@
 			"full": "Peter T. King"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3527,6 +3692,7 @@
 			"full": "Steve King"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3548,6 +3714,7 @@
 			"full": "Adam Kinzinger"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3569,6 +3736,7 @@
 			"full": "Raúl R. Labrador"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "ID",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3590,6 +3758,7 @@
 			"full": "Doug Lamborn"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3611,6 +3780,7 @@
 			"full": "Leonard Lance"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3632,6 +3802,7 @@
 			"full": "James R. Langevin"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "RI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3653,6 +3824,7 @@
 			"full": "James Lankford"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -3675,6 +3847,7 @@
 			"full": "Rick Larsen"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3696,6 +3869,7 @@
 			"full": "John B. Larson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3717,6 +3891,7 @@
 			"full": "Robert E. Latta"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3738,6 +3913,7 @@
 			"full": "Patrick J. Leahy"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "VT",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -3760,6 +3936,7 @@
 			"full": "Barbara Lee"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3781,6 +3958,7 @@
 			"full": "Mike Lee"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "UT",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -3803,6 +3981,7 @@
 			"full": "Sander M. Levin"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3824,6 +4003,7 @@
 			"full": "John Lewis"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3845,6 +4025,7 @@
 			"full": "Daniel Lipinski"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3866,6 +4047,7 @@
 			"full": "Frank A. LoBiondo"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3887,6 +4069,7 @@
 			"full": "David Loebsack"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3908,6 +4091,7 @@
 			"full": "Zoe Lofgren"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3929,6 +4113,7 @@
 			"full": "Billy Long"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3950,6 +4135,7 @@
 			"full": "Nita M. Lowey"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3971,6 +4157,7 @@
 			"full": "Frank D. Lucas"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -3992,6 +4179,7 @@
 			"full": "Blaine Luetkemeyer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4013,6 +4201,7 @@
 			"full": "Ben Ray Luján"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NM",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4034,6 +4223,7 @@
 			"full": "Stephen F. Lynch"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4055,6 +4245,7 @@
 			"full": "Carolyn B. Maloney"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4076,6 +4267,7 @@
 			"full": "Kenny Marchant"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4097,6 +4289,7 @@
 			"full": "Tom Marino"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4118,6 +4311,7 @@
 			"full": "Edward J. Markey"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -4140,6 +4334,7 @@
 			"full": "Doris O. Matsui"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4161,6 +4356,7 @@
 			"full": "John McCain"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -4183,6 +4379,7 @@
 			"full": "Kevin McCarthy"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4204,6 +4401,7 @@
 			"full": "Michael T. McCaul"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4225,6 +4423,7 @@
 			"full": "Tom McClintock"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4246,6 +4445,7 @@
 			"full": "Betty McCollum"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4267,6 +4467,7 @@
 			"full": "James P. McGovern"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4288,6 +4489,7 @@
 			"full": "Patrick T. McHenry"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4309,6 +4511,7 @@
 			"full": "David B. McKinley"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4330,6 +4533,7 @@
 			"full": "Cathy McMorris Rodgers"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4351,6 +4555,7 @@
 			"full": "Jerry McNerney"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4372,6 +4577,7 @@
 			"full": "Patrick Meehan"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4393,6 +4599,7 @@
 			"full": "Gregory W. Meeks"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4414,6 +4621,7 @@
 			"full": "Gwen Moore"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4435,6 +4643,7 @@
 			"full": "Jerry Moran"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "KS",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -4457,6 +4666,7 @@
 			"full": "Lisa Murkowski"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AK",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -4479,6 +4689,7 @@
 			"full": "Christopher Murphy"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -4501,6 +4712,7 @@
 			"full": "Patty Murray"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -4523,6 +4735,7 @@
 			"full": "Jerrold Nadler"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4544,6 +4757,7 @@
 			"full": "Grace F. Napolitano"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4565,6 +4779,7 @@
 			"full": "Richard E. Neal"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4586,6 +4801,7 @@
 			"full": "Kristi L. Noem"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4607,6 +4823,7 @@
 			"full": "Eleanor Holmes Norton"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "DC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4628,6 +4845,7 @@
 			"full": "Devin Nunes"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4649,6 +4867,7 @@
 			"full": "Pete Olson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4670,6 +4889,7 @@
 			"full": "Steven M. Palazzo"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4691,6 +4911,7 @@
 			"full": "Frank Pallone, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4712,6 +4933,7 @@
 			"full": "Bill Pascrell, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4733,6 +4955,7 @@
 			"full": "Rand Paul"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -4755,6 +4978,7 @@
 			"full": "Erik Paulsen"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4776,6 +5000,7 @@
 			"full": "Stevan Pearce"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NM",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4797,6 +5022,7 @@
 			"full": "Nancy Pelosi"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4818,6 +5044,7 @@
 			"full": "Ed Perlmutter"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4839,6 +5066,7 @@
 			"full": "Gary C. Peters"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MI",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -4861,6 +5089,7 @@
 			"full": "Collin C. Peterson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4882,6 +5111,7 @@
 			"full": "Chellie Pingree"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "ME",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4903,6 +5133,7 @@
 			"full": "Ted Poe"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4924,6 +5155,7 @@
 			"full": "Jared Polis"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4945,6 +5177,7 @@
 			"full": "Rob Portman"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -4967,6 +5200,7 @@
 			"full": "Bill Posey"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -4988,6 +5222,7 @@
 			"full": "David E. Price"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5009,6 +5244,7 @@
 			"full": "Mike Quigley"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5030,6 +5266,7 @@
 			"full": "Tom Reed"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5051,6 +5288,7 @@
 			"full": "David G. Reichert"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5072,6 +5310,7 @@
 			"full": "James B. Renacci"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5093,6 +5332,7 @@
 			"full": "Cedric L. Richmond"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5114,6 +5354,7 @@
 			"full": "Martha Roby"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5135,6 +5376,7 @@
 			"full": "David P. Roe"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5156,6 +5398,7 @@
 			"full": "Harold Rogers"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5177,6 +5420,7 @@
 			"full": "Mike Rogers"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5198,6 +5442,7 @@
 			"full": "Dana Rohrabacher"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5219,6 +5464,7 @@
 			"full": "Todd Rokita"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5240,6 +5486,7 @@
 			"full": "Thomas J. Rooney"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5261,6 +5508,7 @@
 			"full": "Ileana Ros-Lehtinen"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5282,6 +5530,7 @@
 			"full": "Peter J. Roskam"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5303,6 +5552,7 @@
 			"full": "Dennis A. Ross"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5324,6 +5574,7 @@
 			"full": "Lucille Roybal-Allard"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5345,6 +5596,7 @@
 			"full": "Edward R. Royce"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5366,6 +5618,7 @@
 			"full": "Marco Rubio"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -5388,6 +5641,7 @@
 			"full": "C. A. Dutch Ruppersberger"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5409,6 +5663,7 @@
 			"full": "Bobby L. Rush"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5430,6 +5685,7 @@
 			"full": "Paul D. Ryan"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5451,6 +5707,7 @@
 			"full": "Tim Ryan"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5472,6 +5729,7 @@
 			"full": "Gregorio Kilili Camacho Sablan"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MP",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5493,6 +5751,7 @@
 			"full": "John P. Sarbanes"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5514,6 +5773,7 @@
 			"full": "Steve Scalise"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5535,6 +5795,7 @@
 			"full": "Janice D. Schakowsky"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5556,6 +5817,7 @@
 			"full": "Adam B. Schiff"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5577,6 +5839,7 @@
 			"full": "Kurt Schrader"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OR",
 		"termStart": "2017-01-10",
 		"termEnd": "2019-01-03",
@@ -5598,6 +5861,7 @@
 			"full": "Charles E. Schumer"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -5620,6 +5884,7 @@
 			"full": "David Schweikert"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5641,6 +5906,7 @@
 			"full": "Austin Scott"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5662,6 +5928,7 @@
 			"full": "David Scott"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5683,6 +5950,7 @@
 			"full": "Robert C. \"Bobby\" Scott"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5704,6 +5972,7 @@
 			"full": "Tim Scott"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -5726,6 +5995,7 @@
 			"full": "F. James Sensenbrenner, Jr."
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5747,6 +6017,7 @@
 			"full": "José E. Serrano"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5768,6 +6039,7 @@
 			"full": "Pete Sessions"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5789,6 +6061,7 @@
 			"full": "Terri A. Sewell"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5810,6 +6083,7 @@
 			"full": "Richard C. Shelby"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -5832,6 +6106,7 @@
 			"full": "Brad Sherman"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5853,6 +6128,7 @@
 			"full": "John Shimkus"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5874,6 +6150,7 @@
 			"full": "Bill Shuster"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5895,6 +6172,7 @@
 			"full": "Michael K. Simpson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "ID",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5916,6 +6194,7 @@
 			"full": "Albio Sires"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5937,6 +6216,7 @@
 			"full": "Louise McIntosh Slaughter"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5958,6 +6238,7 @@
 			"full": "Adam Smith"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -5979,6 +6260,7 @@
 			"full": "Adrian Smith"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NE",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6000,6 +6282,7 @@
 			"full": "Christopher H. Smith"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6021,6 +6304,7 @@
 			"full": "Lamar Smith"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6042,6 +6326,7 @@
 			"full": "Jackie Speier"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6063,6 +6348,7 @@
 			"full": "Steve Stivers"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6084,6 +6370,7 @@
 			"full": "Linda T. Sánchez"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6105,6 +6392,7 @@
 			"full": "Bennie G. Thompson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6126,6 +6414,7 @@
 			"full": "Mike Thompson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6147,6 +6436,7 @@
 			"full": "Glenn Thompson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6168,6 +6458,7 @@
 			"full": "Mac Thornberry"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6189,6 +6480,7 @@
 			"full": "John Thune"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "SD",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -6211,6 +6503,7 @@
 			"full": "Scott R. Tipton"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6232,6 +6525,7 @@
 			"full": "Paul Tonko"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6253,6 +6547,7 @@
 			"full": "Patrick J. Toomey"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -6275,6 +6570,7 @@
 			"full": "Niki Tsongas"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6296,6 +6592,7 @@
 			"full": "Michael R. Turner"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6317,6 +6614,7 @@
 			"full": "Fred Upton"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6338,6 +6636,7 @@
 			"full": "Chris Van Hollen"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -6360,6 +6659,7 @@
 			"full": "Nydia M. Velázquez"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6381,6 +6681,7 @@
 			"full": "Peter J. Visclosky"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6402,6 +6703,7 @@
 			"full": "Tim Walberg"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6423,6 +6725,7 @@
 			"full": "Greg Walden"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6444,6 +6747,7 @@
 			"full": "Timothy J. Walz"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6465,6 +6769,7 @@
 			"full": "Debbie Wasserman Schultz"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6486,6 +6791,7 @@
 			"full": "Maxine Waters"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6507,6 +6813,7 @@
 			"full": "Daniel Webster"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6528,6 +6835,7 @@
 			"full": "Peter Welch"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "VT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6549,6 +6857,7 @@
 			"full": "Joe Wilson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6570,6 +6879,7 @@
 			"full": "Frederica S. Wilson"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6591,6 +6901,7 @@
 			"full": "Robert J. Wittman"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6612,6 +6923,7 @@
 			"full": "Steve Womack"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6633,6 +6945,7 @@
 			"full": "Rob Woodall"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6654,6 +6967,7 @@
 			"full": "Ron Wyden"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "OR",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -6676,6 +6990,7 @@
 			"full": "John A. Yarmuth"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6697,6 +7012,7 @@
 			"full": "Kevin Yoder"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6718,6 +7034,7 @@
 			"full": "Don Young"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AK",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6739,6 +7056,7 @@
 			"full": "Todd Young"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -6761,6 +7079,7 @@
 			"full": "Dean Heller"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "NV",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -6783,6 +7102,7 @@
 			"full": "Mark E. Amodei"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6804,6 +7124,7 @@
 			"full": "Suzanne Bonamici"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6825,6 +7146,7 @@
 			"full": "Suzan K. DelBene"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6846,6 +7168,7 @@
 			"full": "Thomas Massie"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6867,6 +7190,7 @@
 			"full": "Donald M. Payne, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6888,6 +7212,7 @@
 			"full": "Brian Schatz"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "HI",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -6910,6 +7235,7 @@
 			"full": "Bill Foster"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6931,6 +7257,7 @@
 			"full": "Dina Titus"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6952,6 +7279,7 @@
 			"full": "Tom Cotton"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AR",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -6974,6 +7302,7 @@
 			"full": "Kyrsten Sinema"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -6995,6 +7324,7 @@
 			"full": "Doug LaMalfa"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7016,6 +7346,7 @@
 			"full": "Jared Huffman"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7037,6 +7368,7 @@
 			"full": "Ami Bera"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7058,6 +7390,7 @@
 			"full": "Paul Cook"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7079,6 +7412,7 @@
 			"full": "Eric Swalwell"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7100,6 +7434,7 @@
 			"full": "David G. Valadao"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7121,6 +7456,7 @@
 			"full": "Julia Brownley"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7142,6 +7478,7 @@
 			"full": "Tony Cárdenas"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7163,6 +7500,7 @@
 			"full": "Raul Ruiz"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7184,6 +7522,7 @@
 			"full": "Mark Takano"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7205,6 +7544,7 @@
 			"full": "Alan S. Lowenthal"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7226,6 +7566,7 @@
 			"full": "Juan Vargas"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7247,6 +7588,7 @@
 			"full": "Scott H. Peters"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7268,6 +7610,7 @@
 			"full": "Elizabeth H. Esty"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7289,6 +7632,7 @@
 			"full": "Ted S. Yoho"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7310,6 +7654,7 @@
 			"full": "Ron DeSantis"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7331,6 +7676,7 @@
 			"full": "Lois Frankel"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7352,6 +7698,7 @@
 			"full": "Doug Collins"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7373,6 +7720,7 @@
 			"full": "Tulsi Gabbard"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "HI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7394,6 +7742,7 @@
 			"full": "Tammy Duckworth"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -7416,6 +7765,7 @@
 			"full": "Rodney Davis"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7437,6 +7787,7 @@
 			"full": "Cheri Bustos"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7458,6 +7809,7 @@
 			"full": "Jackie Walorski"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7479,6 +7831,7 @@
 			"full": "Susan W. Brooks"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7500,6 +7853,7 @@
 			"full": "Luke Messer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7521,6 +7875,7 @@
 			"full": "Andy Barr"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7542,6 +7897,7 @@
 			"full": "Elizabeth Warren"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -7564,6 +7920,7 @@
 			"full": "Joseph P. Kennedy III"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7585,6 +7942,7 @@
 			"full": "John K. Delaney"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7606,6 +7964,7 @@
 			"full": "Angus S. King, Jr."
 		},
 		"role": "sen",
+		"party": "Independent",
 		"state": "ME",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -7628,6 +7987,7 @@
 			"full": "Daniel T. Kildee"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7649,6 +8009,7 @@
 			"full": "Richard M. Nolan"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7670,6 +8031,7 @@
 			"full": "Ann Wagner"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7691,6 +8053,7 @@
 			"full": "Steve Daines"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "MT",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -7713,6 +8076,7 @@
 			"full": "Richard Hudson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7734,6 +8098,7 @@
 			"full": "Robert Pittenger"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7755,6 +8120,7 @@
 			"full": "Mark Meadows"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7776,6 +8142,7 @@
 			"full": "George Holding"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7797,6 +8164,7 @@
 			"full": "Heidi Heitkamp"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "ND",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -7819,6 +8187,7 @@
 			"full": "Kevin Cramer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "ND",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7840,6 +8209,7 @@
 			"full": "Deb Fischer"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "NE",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -7862,6 +8232,7 @@
 			"full": "Ann M. Kuster"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7883,6 +8254,7 @@
 			"full": "Michelle Lujan Grisham"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NM",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7904,6 +8276,7 @@
 			"full": "Grace Meng"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7925,6 +8298,7 @@
 			"full": "Hakeem S. Jeffries"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7946,6 +8320,7 @@
 			"full": "Sean Patrick Maloney"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7967,6 +8342,7 @@
 			"full": "Chris Collins"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -7988,6 +8364,7 @@
 			"full": "Brad R. Wenstrup"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8009,6 +8386,7 @@
 			"full": "Joyce Beatty"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8030,6 +8408,7 @@
 			"full": "David P. Joyce"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8051,6 +8430,7 @@
 			"full": "Jim Bridenstine"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8072,6 +8452,7 @@
 			"full": "Markwayne Mullin"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8093,6 +8474,7 @@
 			"full": "Scott Perry"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8114,6 +8496,7 @@
 			"full": "Keith J. Rothfus"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8135,6 +8518,7 @@
 			"full": "Matt Cartwright"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8156,6 +8540,7 @@
 			"full": "Tom Rice"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8177,6 +8562,7 @@
 			"full": "Ted Cruz"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -8199,6 +8585,7 @@
 			"full": "Randy K. Weber, Sr."
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8220,6 +8607,7 @@
 			"full": "Beto O’Rourke"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8241,6 +8629,7 @@
 			"full": "Joaquin Castro"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8262,6 +8651,7 @@
 			"full": "Roger Williams"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8283,6 +8673,7 @@
 			"full": "Marc A. Veasey"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8304,6 +8695,7 @@
 			"full": "Filemon Vela"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8325,6 +8717,7 @@
 			"full": "Chris Stewart"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "UT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8346,6 +8739,7 @@
 			"full": "Tim Kaine"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "VA",
 		"termStart": "2013-01-03",
 		"termEnd": "2019-01-03",
@@ -8368,6 +8762,7 @@
 			"full": "Derek Kilmer"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8389,6 +8784,7 @@
 			"full": "Denny Heck"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8410,6 +8806,7 @@
 			"full": "Mark Pocan"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8431,6 +8828,7 @@
 			"full": "Robin L. Kelly"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8452,6 +8850,7 @@
 			"full": "Mark Sanford"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8473,6 +8872,7 @@
 			"full": "Jason Smith"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8494,6 +8894,7 @@
 			"full": "Cory A. Booker"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -8516,6 +8917,7 @@
 			"full": "Katherine M. Clark"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8537,6 +8939,7 @@
 			"full": "Bradley Byrne"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8558,6 +8961,7 @@
 			"full": "Dave Brat"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8579,6 +8983,7 @@
 			"full": "Donald Norcross"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8600,6 +9005,7 @@
 			"full": "Alma S. Adams"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8621,6 +9027,7 @@
 			"full": "Gary J. Palmer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8642,6 +9049,7 @@
 			"full": "J. French Hill"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8663,6 +9071,7 @@
 			"full": "Bruce Westerman"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AR",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8684,6 +9093,7 @@
 			"full": "Martha McSally"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8705,6 +9115,7 @@
 			"full": "Ruben Gallego"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8726,6 +9137,7 @@
 			"full": "Mark DeSaulnier"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8747,6 +9159,7 @@
 			"full": "Stephen Knight"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8768,6 +9181,7 @@
 			"full": "Pete Aguilar"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8789,6 +9203,7 @@
 			"full": "Ted Lieu"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8810,6 +9225,7 @@
 			"full": "Norma J. Torres"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8831,6 +9247,7 @@
 			"full": "Mimi Walters"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8852,6 +9269,7 @@
 			"full": "Ken Buck"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "CO",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8873,6 +9291,7 @@
 			"full": "Carlos Curbelo"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8894,6 +9313,7 @@
 			"full": "Earl L. \"Buddy\" Carter"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8915,6 +9335,7 @@
 			"full": "Jody B. Hice"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8936,6 +9357,7 @@
 			"full": "Barry Loudermilk"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8957,6 +9379,7 @@
 			"full": "Rick W. Allen"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8978,6 +9401,7 @@
 			"full": "Rod Blum"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -8999,6 +9423,7 @@
 			"full": "David Young"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9020,6 +9445,7 @@
 			"full": "Mike Bost"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9041,6 +9467,7 @@
 			"full": "Ralph Lee Abraham"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9062,6 +9489,7 @@
 			"full": "Garret Graves"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9083,6 +9511,7 @@
 			"full": "Seth Moulton"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9104,6 +9533,7 @@
 			"full": "Bruce Poliquin"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "ME",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9125,6 +9555,7 @@
 			"full": "John R. Moolenaar"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9146,6 +9577,7 @@
 			"full": "Mike Bishop"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9167,6 +9599,7 @@
 			"full": "David A. Trott"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9188,6 +9621,7 @@
 			"full": "Debbie Dingell"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9209,6 +9643,7 @@
 			"full": "Brenda L. Lawrence"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9230,6 +9665,7 @@
 			"full": "Tom Emmer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9251,6 +9687,7 @@
 			"full": "David Rouzer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9272,6 +9709,7 @@
 			"full": "Thomas MacArthur"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9293,6 +9731,7 @@
 			"full": "Bonnie Watson Coleman"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9314,6 +9753,7 @@
 			"full": "Lee M. Zeldin"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9335,6 +9775,7 @@
 			"full": "Kathleen M. Rice"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9356,6 +9797,7 @@
 			"full": "Elise M. Stefanik"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9377,6 +9819,7 @@
 			"full": "John Katko"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9398,6 +9841,7 @@
 			"full": "Steve Russell"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OK",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9419,6 +9863,7 @@
 			"full": "Ryan A. Costello"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9440,6 +9885,7 @@
 			"full": "Brendan F. Boyle"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9461,6 +9907,7 @@
 			"full": "John Ratcliffe"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9482,6 +9929,7 @@
 			"full": "Will Hurd"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9503,6 +9951,7 @@
 			"full": "Brian Babin"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9524,6 +9973,7 @@
 			"full": "Mia B. Love"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "UT",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9545,6 +9995,7 @@
 			"full": "Donald S. Beyer, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9566,6 +10017,7 @@
 			"full": "Barbara Comstock"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9587,6 +10039,7 @@
 			"full": "Stacey E. Plaskett"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "VI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9608,6 +10061,7 @@
 			"full": "Dan Newhouse"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9629,6 +10083,7 @@
 			"full": "Glenn Grothman"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9650,6 +10105,7 @@
 			"full": "Alexander X. Mooney"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9671,6 +10127,7 @@
 			"full": "Evan H. Jenkins"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9692,6 +10149,7 @@
 			"full": "Aumua Amata Coleman Radewagen"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9713,6 +10171,7 @@
 			"full": "Dan Sullivan"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "AK",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -9735,6 +10194,7 @@
 			"full": "David Perdue"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -9757,6 +10217,7 @@
 			"full": "Joni Ernst"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "IA",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -9779,6 +10240,7 @@
 			"full": "Thom Tillis"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -9801,6 +10263,7 @@
 			"full": "Mike Rounds"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "SD",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -9823,6 +10286,7 @@
 			"full": "Mark Walker"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9844,6 +10308,7 @@
 			"full": "Ben Sasse"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "NE",
 		"termStart": "2015-01-06",
 		"termEnd": "2021-01-03",
@@ -9866,6 +10331,7 @@
 			"full": "Daniel M. Donovan, Jr."
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9887,6 +10353,7 @@
 			"full": "Trent Kelly"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9908,6 +10375,7 @@
 			"full": "Darin LaHood"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9929,6 +10397,7 @@
 			"full": "Warren Davidson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "OH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9950,6 +10419,7 @@
 			"full": "Colleen Hanabusa"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "HI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9971,6 +10441,7 @@
 			"full": "James Comer"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -9992,6 +10463,7 @@
 			"full": "Dwight Evans"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10013,6 +10485,7 @@
 			"full": "Kamala D. Harris"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -10035,6 +10508,7 @@
 			"full": "John Kennedy"
 		},
 		"role": "sen",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -10057,6 +10531,7 @@
 			"full": "Margaret Wood Hassan"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NH",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -10079,6 +10554,7 @@
 			"full": "Catherine Cortez Masto"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "NV",
 		"termStart": "2017-01-03",
 		"termEnd": "2023-01-03",
@@ -10101,6 +10577,7 @@
 			"full": "Bradley Scott Schneider"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10122,6 +10599,7 @@
 			"full": "Carol Shea-Porter"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NH",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10143,6 +10621,7 @@
 			"full": "Tom O’Halleran"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10164,6 +10643,7 @@
 			"full": "Andy Biggs"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "AZ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10185,6 +10665,7 @@
 			"full": "Ro Khanna"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10206,6 +10687,7 @@
 			"full": "Jimmy Panetta"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10227,6 +10709,7 @@
 			"full": "Salud O. Carbajal"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10248,6 +10731,7 @@
 			"full": "Nanette Diaz Barragán"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10269,6 +10753,7 @@
 			"full": "J. Luis Correa"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10290,6 +10775,7 @@
 			"full": "Lisa Blunt Rochester"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "DE",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10311,6 +10797,7 @@
 			"full": "Matt Gaetz"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10332,6 +10819,7 @@
 			"full": "Neal P. Dunn"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10353,6 +10841,7 @@
 			"full": "John H. Rutherford"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10374,6 +10863,7 @@
 			"full": "Al Lawson, Jr."
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10395,6 +10885,7 @@
 			"full": "Stephanie N. Murphy"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10416,6 +10907,7 @@
 			"full": "Darren Soto"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10437,6 +10929,7 @@
 			"full": "Val Butler Demings"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10458,6 +10951,7 @@
 			"full": "Charlie Crist"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10479,6 +10973,7 @@
 			"full": "Brian J. Mast"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10500,6 +10995,7 @@
 			"full": "Francis Rooney"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "FL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10521,6 +11017,7 @@
 			"full": "A. Drew Ferguson IV"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10542,6 +11039,7 @@
 			"full": "Raja Krishnamoorthi"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "IL",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10563,6 +11061,7 @@
 			"full": "Jim Banks"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10584,6 +11083,7 @@
 			"full": "Trey Hollingsworth"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "IN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10605,6 +11105,7 @@
 			"full": "Roger W. Marshall"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KS",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10626,6 +11127,7 @@
 			"full": "Clay Higgins"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10647,6 +11149,7 @@
 			"full": "Mike Johnson"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "LA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10668,6 +11171,7 @@
 			"full": "Anthony G. Brown"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10689,6 +11193,7 @@
 			"full": "Jamie Raskin"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "MD",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10710,6 +11215,7 @@
 			"full": "Jack Bergman"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10731,6 +11237,7 @@
 			"full": "Paul Mitchell"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10752,6 +11259,7 @@
 			"full": "Jason Lewis"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10773,6 +11281,7 @@
 			"full": "Ted Budd"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NC",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10794,6 +11303,7 @@
 			"full": "Don Bacon"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NE",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10815,6 +11325,7 @@
 			"full": "Josh Gottheimer"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NJ",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10836,6 +11347,7 @@
 			"full": "Jacky Rosen"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10857,6 +11369,7 @@
 			"full": "Ruben J. Kihuen"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NV",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10878,6 +11391,7 @@
 			"full": "Thomas R. Suozzi"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10899,6 +11413,7 @@
 			"full": "Adriano Espaillat"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10920,6 +11435,7 @@
 			"full": "John J. Faso"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10941,6 +11457,7 @@
 			"full": "Claudia Tenney"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "NY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10962,6 +11479,7 @@
 			"full": "Brian K. Fitzpatrick"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -10983,6 +11501,7 @@
 			"full": "Lloyd Smucker"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11004,6 +11523,7 @@
 			"full": "Jenniffer González-Colón"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "PR",
 		"termStart": "2017-01-03",
 		"termEnd": "2021-01-03",
@@ -11025,6 +11545,7 @@
 			"full": "David Kustoff"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TN",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11046,6 +11567,7 @@
 			"full": "Vicente Gonzalez"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11067,6 +11589,7 @@
 			"full": "Jodey C. Arrington"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "TX",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11088,6 +11611,7 @@
 			"full": "Scott Taylor"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11109,6 +11633,7 @@
 			"full": "A. Donald McEachin"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11130,6 +11655,7 @@
 			"full": "Thomas A. Garrett, Jr."
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "VA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11151,6 +11677,7 @@
 			"full": "Pramila Jayapal"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "WA",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11172,6 +11699,7 @@
 			"full": "Mike Gallagher"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WI",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11193,6 +11721,7 @@
 			"full": "Liz Cheney"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "WY",
 		"termStart": "2017-01-03",
 		"termEnd": "2019-01-03",
@@ -11214,6 +11743,7 @@
 			"full": "Ron Estes"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "KS",
 		"termStart": "2017-04-25",
 		"termEnd": "2019-01-03",
@@ -11236,6 +11766,7 @@
 			"full": "Greg Gianforte"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "MT",
 		"termStart": "2017-06-21",
 		"termEnd": "2019-01-03",
@@ -11257,6 +11788,7 @@
 			"full": "Ralph Norman"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "SC",
 		"termStart": "2017-06-26",
 		"termEnd": "2019-01-03",
@@ -11278,6 +11810,7 @@
 			"full": "Karen C. Handel"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "GA",
 		"termStart": "2017-06-26",
 		"termEnd": "2019-01-03",
@@ -11299,6 +11832,7 @@
 			"full": "Jimmy Gomez"
 		},
 		"role": "rep",
+		"party": "Democrat",
 		"state": "CA",
 		"termStart": "2017-07-11",
 		"termEnd": "2019-01-03",
@@ -11320,6 +11854,7 @@
 			"full": "John Curtis"
 		},
 		"role": "rep",
+		"party": "Republican",
 		"state": "UT",
 		"termStart": "2017-11-13",
 		"termEnd": "2019-01-03",
@@ -11341,6 +11876,7 @@
 			"full": "Doug Jones"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "AL",
 		"termStart": "2018-01-03",
 		"termEnd": "2021-01-03",
@@ -11363,6 +11899,7 @@
 			"full": "Tina Smith"
 		},
 		"role": "sen",
+		"party": "Democrat",
 		"state": "MN",
 		"termStart": "2018-01-03",
 		"termEnd": "2021-01-03",

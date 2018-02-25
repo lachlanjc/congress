@@ -37,6 +37,7 @@ const processProfile = (profile, account) => {
       full: profile.name.official_full
     },
     role: term.type,
+    party: term.party,
     state: term.state,
     termStart: term.start,
     termEnd: term.end,

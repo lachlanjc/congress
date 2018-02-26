@@ -1,13 +1,13 @@
 {
-	"presets": [
+  "presets": [
     "next/babel",
     "stage-0"
   ],
   "plugins": [
-	  ["module-resolver", {
+    ["module-resolver", {
       "root": ["./"],
       "alias": {
-	      "data": "./data",
+        "data": "./data",
         "theme": "./theme"
       }
     }]

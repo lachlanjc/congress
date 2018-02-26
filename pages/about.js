@@ -27,8 +27,9 @@ export default () => (
     <Container maxWidth={40} py={4} px={3}>
       <Text f={3} my={3}>
         Using data from the Center for Responsive Politics and
-        theunitedstates.io. Started at CodeDay DC 2018. Totally open source. Built
-        with React, Next.js, styled-components, and the Hack Club Design System.
+        theunitedstates.io. Started at CodeDay DC 2018. Totally open source.
+        Built with React, Next.js, styled-components, and the Hack Club Design
+        System.
       </Text>
       <Divider my={4} />
       <Bio />

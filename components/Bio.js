@@ -10,7 +10,7 @@ const Bio = () => (
       mr={3}
       style={{ flexShrink: '0' }}
     />
-    <Text align='left' f={2}>
+    <Text align="left" f={2}>
       A project by <strong>Lachlan Campbell</strong>, a web designer-developer
       and high schooler.{' '}
       <Link color="info" href="https://twitter.com/lachlanjc">

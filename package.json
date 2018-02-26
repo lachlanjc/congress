@@ -31,7 +31,7 @@
   },
   "scripts": {
     "dev": "next",
-    "fmt": "prettier --no-semi --single-quote --write 'src/**/**/*.js'",
+    "fmt": "prettier --no-semi --single-quote --write '{components,data,pages,theme}/**/*.js'",
     "card": "repng theme/card.js -w 512 -h 512 -o static -f card",
     "download": "node data/download.js",
     "build": "next build",

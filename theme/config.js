@@ -1,5 +1,5 @@
 import React from 'react'
-import {injectGlobal} from 'styled-components'
+import { injectGlobal } from 'styled-components'
 import { theme as base } from '@hackclub/design-system'
 import palx from 'palx'
 

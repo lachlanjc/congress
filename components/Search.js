@@ -27,7 +27,7 @@ import {
 import Group from 'components/profile/Group'
 import Spinner from 'respin'
 
-import data from '../../data/data.json'
+import data from 'data/data.json'
 import Profile from 'components/profile/Profile'
 
 class Search extends Component {

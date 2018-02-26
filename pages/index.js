@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
+import React from 'react'
+import Link from 'next/link'
+import ThemeProvider from 'theme'
 import {
   Container,
   BackgroundImage,
@@ -22,10 +22,9 @@ const Mark = Text.withComponent('mark').extend`
 `
 
 export default () => (
-  <Fragment>
-    <Helmet title="Take back Congress" />
+  <ThemeProvider>
     <BackgroundImage
-      image="/hero.jpg"
+      image="/static/hero.jpg"
       bg="primary"
       py={[5, 6]}
       px={2}
@@ -76,5 +75,5 @@ export default () => (
       </Card>
     </Container>
     <Footer />
-  </Fragment>
+  </ThemeProvider>
 )

@@ -1,2 +1,3 @@
-public
-.cache
+.next/
+data/contribs/*.json
+data/*.js

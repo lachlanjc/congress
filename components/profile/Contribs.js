@@ -32,7 +32,7 @@ const Item = Text.withComponent('li').extend`
 
 const Contribs = ({ data, id, ...props }) => (
   <Fragment>
-    <Heading.h5 fontSize={2} mt={3} mb={1}>
+    <Heading.h5 color='slate' f={2} mt={3} mb={1}>
       Contributors
     </Heading.h5>
     <List m={0} mx={[-3, -4]} pl={[3, 4]}>

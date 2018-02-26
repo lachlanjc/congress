@@ -8,19 +8,14 @@
     "@hackclub/design-system": "^0.0.1-8",
     "async-retry": "^1.1.4",
     "axios": "^0.18.0",
+    "babel-plugin-module-resolver": "^3.1.0",
+    "babel-preset-stage-0": "^6.24.1",
     "comma-number": "^2.0.0",
-    "gatsby": "^1.9.215",
-    "gatsby-link": "^1.6.37",
-    "gatsby-plugin-react-helmet": "^2.0.5",
-    "gatsby-plugin-react-next": "^1.0.9",
-    "gatsby-plugin-resolve-src": "^1.0.0",
-    "gatsby-plugin-styled-components": "^2.0.8",
     "load-json-file": "^4.0.0",
     "lodash": "^4.17.5",
     "neat-csv": "^2.1.0",
-    "react-helmet": "^5.2.0",
+    "next": "^5.0.0",
     "respin": "^1.0.1",
-    "serve": "^6.5.0",
     "styled-components": "^3.1.6",
     "write-json-file": "^2.3.0"
   },
@@ -35,11 +30,11 @@
     "url": "https://github.com/lachlanjc/congress.git"
   },
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "next",
     "fmt": "prettier --no-semi --single-quote --write 'src/**/**/*.js'",
-    "card": "repng src/card.js -w 512 -h 512 -o static -f card",
+    "card": "repng theme/card.js -w 512 -h 512 -o static -f card",
     "download": "node data/download.js",
-    "build": "gatsby build",
-    "start": "serve public"
+    "build": "next build",
+    "start": "next start"
   }
 }

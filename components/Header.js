@@ -1,9 +1,9 @@
 import React from 'react'
 import { Heading, Text } from '@hackclub/design-system'
-import Link from 'gatsby-link'
+import Link from 'next/link'
 
 const Header = props => (
-  <Link to="/">
+  <Link href="/">
     <Heading.h1 color="primary" my={3} f={6} {...props}>
       Congress
     </Heading.h1>

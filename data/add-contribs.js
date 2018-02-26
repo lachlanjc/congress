@@ -13,4 +13,4 @@ const process = profile => {
 
 loadJsonFile('./data/people.json')
   .then(profiles => map(profiles, p => process(p)))
-  .then(data => writeJsonFile('./data/data.json', data))
+  .then(data => writeJsonFile('./data/data.json', data, { indent: '' }))

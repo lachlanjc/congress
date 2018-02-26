@@ -9,6 +9,7 @@ import {
   Flex
 } from '@hackclub/design-system'
 import Contact from './Contact'
+import Contribs from './Contribs'
 import { lowerCase, random } from 'lodash'
 
 const PARTIES = 'Republican' | 'Democrat' | 'Independent'
@@ -36,6 +37,7 @@ const Profile = ({ data, ...props }) => (
         </Text>
       </Box>
     </Flex>
+    <Contribs data={data.contribs} id={data.ids.opensecrets} />
     <Contact
       phone={data.contact.phone}
       callCount={random(4, 64)}

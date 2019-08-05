@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Link, Text, Icon, Button } from '@hackclub/design-system'
+import { Flex, Link, Text, IconButton, Button } from '@hackclub/design-system'
 
 const Base = styled(Flex)`
   line-height: 0;
@@ -18,50 +18,29 @@ const Contact = ({ phone, callCount, form, twitter, facebook, ...props }) => (
 
 export default Contact
 
-const ItemLink = styled(Link).attrs({ mx: [1, 2] })`
-  display: inline-block;
-  background-image: url(//icon.now.sh/${props => props.icon}/ffffff);
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: center;
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  border-radius: 24px;
-  &:first-of-type {
-    width: 48px;
-    height: 48px;
-  }
-`
-
 const Item = ({ href, label, icon, bg = 'brand', ...props }) => (
-  <ItemLink
+  <IconButton
     href={href}
     target="_blank"
-    aria-label={label}
     title={label}
-    icon={icon}
+    glyph={icon}
     bg={bg}
-    color="white"
+    mx={[1, 2]}
+    circle
     {...props}
   />
 )
 
 const tel = data => `tel:${data.match(/\d+/g).join('')}`
-const PhoneButton = styled(Button)`
-  display: inline-flex;
-  align-items: center;
-`
 const Phone = ({ data }) => (
-  <PhoneButton
+  <Button
     href={tel(data)}
     title={`Phone number: ${data}`}
     aria-label={`Phone number: ${data}`}
     bg="brand"
   >
-    <Icon name="phone" size={24} mr={2} />
     Call
-  </PhoneButton>
+  </Button>
 )
 const FlexLink = Flex.withComponent(Link)
 const Calling = ({ count, data }) => (
@@ -76,7 +55,7 @@ const Calling = ({ count, data }) => (
 )
 
 const Form = ({ data }) => (
-  <Item href={data} label="Contact" icon="chat" bg="warning" />
+  <Item href={data} label="Contact" icon="message" bg="warning" />
 )
 
 const Twitter = ({ data }) => (

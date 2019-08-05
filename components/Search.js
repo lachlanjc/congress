@@ -108,7 +108,7 @@ class Search extends Component {
         <Label htmlFor="address" mb={2} fontSize={2} color="muted" caps>
           Enter your home (U.S.) address
         </Label>
-        <Searcher align="flex-end" w={1}>
+        <Searcher align="flex-end" width={1}>
           <Input
             name="address"
             id="address"

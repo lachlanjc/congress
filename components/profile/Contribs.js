@@ -32,17 +32,17 @@ const Item = Text.withComponent('li').extend`
 
 const Contribs = ({ data, id, ...props }) => (
   <Fragment>
-    <Heading.h5 color="slate" f={2} mt={3} mb={1}>
+    <Heading.h5 color="slate" fontSize={2} mt={3} mb={1}>
       Contributors
     </Heading.h5>
     <List m={0} mx={[-3, -4]} pl={[3, 4]}>
       {map(data, row => (
-        <Item f={1} pb={1} mb={1}>
+        <Item fontSize={1} pb={1} mb={1}>
           <Text.span mr={1} children={row.name} />
           <Text.span color="muted" children={`$${commaNumber(row.total)}`} />
         </Item>
       ))}
-      <Item f={1}>
+      <Item fontSize={1}>
         <Link
           target="_blank"
           href={`https://www.opensecrets.org/members-of-congress/contributors?cid=${id}&cycle=2016&type=C`}

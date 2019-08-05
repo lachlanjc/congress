@@ -6,7 +6,14 @@ import { isEmpty, first } from 'lodash'
 const Group = ({ profiles, label, children }) =>
   isEmpty(first(profiles)) ? null : (
     <Fragment>
-      <Heading.h2 mt={4} f={2} color="muted" caps regular children={label} />
+      <Heading.h2
+        mt={4}
+        fontSize={2}
+        color="muted"
+        caps
+        regular
+        children={label}
+      />
       {profiles.map(
         profile =>
           !isEmpty(profile) && (

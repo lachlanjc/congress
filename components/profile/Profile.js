@@ -29,8 +29,8 @@ const Profile = ({ data, ...props }) => (
         mr={3}
       />
       <Box align="left">
-        <Heading.h4 f={4} fontWeight="bold" children={data.name.full} />
-        <Text color="muted" f={2}>
+        <Heading.h4 fontSize={4} fontWeight="bold" children={data.name.full} />
+        <Text color="muted" fontSize={2}>
           {data.role === 'rep' ? `${data.id}, c` : 'C'}
           {'urrent term '}
           {getYear(data.termStart)}–{getYear(data.termEnd)}
@@ -76,7 +76,7 @@ const Badge = ({ party, ...props }) => {
     <Base
       bg={lowerCase(party).slice(0, 3)}
       color="white"
-      f={1}
+      fontSize={1}
       {...props}
       children={party.slice(0, 1)}
     />

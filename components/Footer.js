@@ -5,7 +5,7 @@ import Link from 'theme/link'
 const Footer = () => (
   <Container w={1} maxWidth={36} px={3} pb={5}>
     <Divider />
-    <Text color="muted" f={2} align="center" py={3}>
+    <Text color="muted" fontSize={2} align="center" py={3}>
       A project by <A href="https://lachlanjc.me">@lachlanjc</A>
       {' — '}
       <Link href="/about">read more</Link>

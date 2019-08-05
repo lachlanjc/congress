@@ -112,7 +112,7 @@ class Search extends Component {
     const { loading, address, rep, sen0, sen1 } = this.state
     return (
       <Box my={3}>
-        <Label htmlFor="address" mb={2} f={2} color="muted" caps>
+        <Label htmlFor="address" mb={2} fontSize={2} color="muted" caps>
           Enter your home (U.S.) address
         </Label>
         <Searcher align="flex-end" w={1}>

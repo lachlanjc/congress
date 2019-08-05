@@ -65,10 +65,10 @@ const Phone = ({ data }) => (
 const FlexLink = Flex.withComponent(Link)
 const Calling = ({ count, data }) => (
   <FlexLink flex="1 1 auto" align="center" href={tel(data)} px={[2, 3]}>
-    <Text.span f={3} color="brand" bold>
+    <Text.span fontSize={3} color="brand" bold>
       {count}
     </Text.span>
-    <Text.span ml={1} mt={1} f={0} color="muted" caps>
+    <Text.span ml={1} mt={1} fontSize={0} color="muted" caps>
       calling
     </Text.span>
   </FlexLink>

@@ -30,11 +30,11 @@ export default () => (
       px={2}
       align="center"
     >
-      <Heading.h1 color="white" f={6} mt={0}>
+      <Heading.h1 color="white" fontSize={6} mt={0}>
         Let’s <Mark>take back</Mark> Congress.
       </Heading.h1>
       <Container w={1} maxWidth={36}>
-        <Heading.h2 color="white" f={[3, 4]} my={3} regular>
+        <Heading.h2 color="white" fontSize={[3, 4]} my={3} regular>
           Our members of Congress work for us, the people. But they’re only
           listening to their big donors.
           <br />
@@ -43,7 +43,7 @@ export default () => (
       </Container>
     </BackgroundImage>
     <Container w={1} maxWidth={36} py={[4, 5]} px={3}>
-      <Heading.h2 f={4} mb={2}>
+      <Heading.h2 fontSize={4} mb={2}>
         Find out who represents you
       </Heading.h2>
       <Search />
@@ -54,10 +54,10 @@ export default () => (
         boxShadowSize="md"
         mt={[4, 5]}
       >
-        <Heading.h2 f={4} mb={2}>
+        <Heading.h2 fontSize={4} mb={2}>
           Why should I call?
         </Heading.h2>
-        <Text color="steel" f={2}>
+        <Text color="steel" fontSize={2}>
           Calling your House Representative and State Senators is one of the
           most effective ways to make your voice heard. Emails and letters are
           often batched, and Tweets ignored, but speaking to a staffer on the

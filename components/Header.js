@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Header = props => (
   <Link href="/">
-    <Heading.h1 color="primary" my={3} f={6} {...props}>
+    <Heading.h1 color="primary" my={3} fontSize={6} {...props}>
       Congress
     </Heading.h1>
   </Link>

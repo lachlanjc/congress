@@ -15,15 +15,7 @@ import {
   includes
 } from 'lodash'
 import axios from 'axios'
-import {
-  Box,
-  Text,
-  Heading,
-  Button,
-  Flex,
-  Input,
-  Label
-} from '@hackclub/design-system'
+import { Box, Button, Flex, Input, Label } from '@hackclub/design-system'
 import Group from 'components/profile/Group'
 import Spinner from 'respin'
 
@@ -138,7 +130,7 @@ class Search extends Component {
   }
 }
 
-const Searcher = Flex.extend`
+const Searcher = styled(Flex)`
   input,
   button {
     height: 36px;

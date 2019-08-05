@@ -1,18 +1,10 @@
 import React from 'react'
-import {
-  Card,
-  Avatar,
-  Heading,
-  Text,
-  Button,
-  Box,
-  Flex
-} from '@hackclub/design-system'
+import styled from 'styled-components'
+import { Card, Avatar, Heading, Text, Box, Flex } from '@hackclub/design-system'
 import Contact from './Contact'
 import Contribs from './Contribs'
 import { lowerCase, random } from 'lodash'
 
-const PARTIES = 'Republican' | 'Democrat' | 'Independent'
 const getYear = date => date.slice(0, 4)
 
 const Profile = ({ data, ...props }) => (
@@ -48,39 +40,38 @@ const Profile = ({ data, ...props }) => (
   </Card>
 )
 
-const Avi = Avatar.extend`
+const Avi = styled(Avatar)`
   object-fit: cover;
   object-position: center;
   flex-shrink: 0;
   position: relative;
 `
 
-const BadgeContainer = Box.extend`
+const BadgeContainer = styled(Box)`
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 `
 
-const Badge = ({ party, ...props }) => {
-  const Base = Box.extend`
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    line-height: 0;
-    border-radius: 12px;
-  `
-  return (
-    <Base
-      bg={lowerCase(party).slice(0, 3)}
-      color="white"
-      fontSize={1}
-      {...props}
-      children={party.slice(0, 1)}
-    />
-  )
-}
+const BadgeBase = styled(Box)`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+  border-radius: 12px;
+`
+
+const Badge = ({ party, ...props }) => (
+  <BadgeBase
+    bg={lowerCase(party).slice(0, 3)}
+    color="white"
+    fontSize={1}
+    {...props}
+    children={party.slice(0, 1)}
+  />
+)
 
 export default Profile

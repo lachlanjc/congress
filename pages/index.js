@@ -1,20 +1,18 @@
 import React from 'react'
-import Link from 'next/link'
+import styled from 'styled-components'
 import ThemeProvider from 'theme'
 import {
   Container,
   BackgroundImage,
   Heading,
   Text,
-  Button,
-  Box,
   Card,
   Link as A
 } from '@hackclub/design-system'
 import Search from 'components/Search'
 import Footer from 'components/Footer'
 
-const Mark = Text.withComponent('mark').extend`
+const Mark = styled(Text.withComponent('mark'))`
   background: transparent url(/underline.svg) bottom left no-repeat;
   background-size: 100% 0.75rem;
   padding-bottom: 0.375rem;

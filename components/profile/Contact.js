@@ -1,7 +1,8 @@
 import React from 'react'
-import { Box, Flex, Link, Text, Icon, Button } from '@hackclub/design-system'
+import styled from 'styled-components'
+import { Flex, Link, Text, Icon, Button } from '@hackclub/design-system'
 
-const Base = Flex.extend`
+const Base = styled(Flex)`
   line-height: 0;
 `
 
@@ -17,7 +18,7 @@ const Contact = ({ phone, callCount, form, twitter, facebook, ...props }) => (
 
 export default Contact
 
-const ItemLink = Link.extend.attrs({ mx: [1, 2] })`
+const ItemLink = styled(Link).attrs({ mx: [1, 2] })`
   display: inline-block;
   background-image: url(//icon.now.sh/${props => props.icon}/ffffff);
   background-repeat: no-repeat;
@@ -47,7 +48,7 @@ const Item = ({ href, label, icon, bg = 'brand', ...props }) => (
 )
 
 const tel = data => `tel:${data.match(/\d+/g).join('')}`
-const PhoneButton = Button.extend`
+const PhoneButton = styled(Button)`
   display: inline-flex;
   align-items: center;
 `

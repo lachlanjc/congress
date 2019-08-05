@@ -1,6 +1,6 @@
 {
   "name": "congress",
-  "description": "Congress unwrapped",
+  "description": "Trying to rescue democracy",
   "version": "1.0.0",
   "author": "Lachlan Campbell",
   "private": true,
@@ -18,7 +18,7 @@
     "styled-components": "^3.4.9",
     "write-json-file": "^4.2.0"
   },
-  "homepage": "https://congress.lachlanjc.me/",
+  "homepage": "https://congress.now.sh/",
   "license": "MIT",
   "main": "n/a",
   "repository": {
@@ -27,10 +27,14 @@
   },
   "scripts": {
     "dev": "next",
-    "fmt": "prettier --no-semi --single-quote --write '{components,data,pages,theme}/**/*.js'",
-    "card": "repng theme/card.js -w 512 -h 512 -o static -f card",
+    "fmt": "prettier --write '{components,data,pages,theme}/**/*.js'",
+    "card": "npx repng theme/card.js -w 512 -h 512 -o static -f card",
     "download": "node data/download.js",
     "build": "next build",
     "start": "next start"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }

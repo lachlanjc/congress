@@ -22,7 +22,7 @@ const Mark = styled(Text.withComponent('mark'))`
 export default () => (
   <ThemeProvider>
     <BackgroundImage
-      image="/static/hero.jpg"
+      src="/static/hero.jpg"
       bg="primary"
       py={[5, 6]}
       px={2}

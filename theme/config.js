@@ -1,4 +1,3 @@
-import React from 'react'
 import { injectGlobal } from 'styled-components'
 import { theme as base } from '@hackclub/design-system'
 import palx from 'palx'
@@ -38,7 +37,7 @@ export const colors = {
 }
 
 export const font =
-  'GT-America,"Avenir Next","Segoe UI",Roboto,"Helvetica Neue",sans-serif'
+  'GT-America,system-ui,"Segoe UI",Roboto,"Helvetica Neue",sans-serif'
 
 const theme = {
   ...base,

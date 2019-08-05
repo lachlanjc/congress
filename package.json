@@ -19,9 +19,6 @@
     "styled-components": "^3.3.0",
     "write-json-file": "^2.3.0"
   },
-  "devDependencies": {
-    "prettier": "^1.13.4"
-  },
   "homepage": "https://congress.lachlanjc.me/",
   "license": "MIT",
   "main": "n/a",

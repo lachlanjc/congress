@@ -20,19 +20,16 @@ import { Box, Button, Flex, Input, Label } from '@hackclub/design-system'
 import Group from 'components/profile/Group'
 import Spinner from 'respin'
 
-import data from 'data/data.json'
+import data from '../data/data.json'
 import Profile from 'components/profile/Profile'
 
 class Search extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      address: '',
-      loading: false,
-      rep: {},
-      sen1: {},
-      sen2: {}
-    }
+  state = {
+    address: '',
+    loading: false,
+    rep: {},
+    sen1: {},
+    sen2: {}
   }
 
   onKey(value, key) {

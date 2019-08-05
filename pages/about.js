@@ -1,6 +1,6 @@
 import React from 'react'
-import ThemeProvider from 'theme'
-import Link from 'theme/link'
+import ThemeProvider from '../theme'
+import Link from '../theme/link'
 import {
   Container,
   Heading,

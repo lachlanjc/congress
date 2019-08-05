@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Text, Divider, Link as A } from '@hackclub/design-system'
-import Link from 'theme/link'
+import Link from '../theme/link'
 
 const Footer = () => (
   <Container width={1} maxWidth={36} px={3} pb={5}>

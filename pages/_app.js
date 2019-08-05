@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import App, { Container } from 'next/app'
-import ThemeProvider from 'theme'
+import ThemeProvider from '../theme'
 
 const meta = tags =>
   tags.map((m, i) => {

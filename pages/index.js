@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import ThemeProvider from 'theme'
+import ThemeProvider from '../theme'
 import {
   Container,
   BackgroundImage,

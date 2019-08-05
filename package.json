@@ -8,7 +8,6 @@
     "@hackclub/design-system": "^0.0.1-16",
     "async-retry": "^1.2.3",
     "axios": "^0.19.0",
-    "babel-plugin-module-resolver": "^3.2.0",
     "comma-number": "^2.0.1",
     "load-json-file": "^6.2.0",
     "lodash": "^4.17.15",
@@ -20,7 +19,6 @@
   },
   "homepage": "https://congress.now.sh/",
   "license": "MIT",
-  "main": "n/a",
   "repository": {
     "type": "git",
     "url": "https://github.com/lachlanjc/congress.git"

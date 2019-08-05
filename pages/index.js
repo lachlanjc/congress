@@ -9,8 +9,8 @@ import {
   Card,
   Link as A
 } from '@hackclub/design-system'
-import Search from 'components/Search'
-import Footer from 'components/Footer'
+import Search from '../components/Search'
+import Footer from '../components/Footer'
 
 const Mark = styled(Text.withComponent('mark'))`
   background: transparent url(/underline.svg) bottom left no-repeat;

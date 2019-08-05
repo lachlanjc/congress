@@ -17,11 +17,11 @@ import {
 } from 'lodash'
 import axios from 'axios'
 import { Box, Button, Flex, Input, Label } from '@hackclub/design-system'
-import Group from 'components/profile/Group'
+import Group from './profile/Group'
 import Spinner from 'respin'
 
 import data from '../data/data.json'
-import Profile from 'components/profile/Profile'
+import Profile from './profile/Profile'
 
 class Search extends Component {
   state = {

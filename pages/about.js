@@ -1,15 +1,8 @@
 import React from 'react'
 import ThemeProvider from '../theme'
 import Link from '../theme/link'
-import {
-  Container,
-  Heading,
-  Text,
-  Box,
-  Button,
-  Divider
-} from '@hackclub/design-system'
-import Bio from 'components/Bio'
+import { Container, Heading, Text, Box, Divider } from '@hackclub/design-system'
+import Bio from '../components/Bio'
 
 export default () => (
   <ThemeProvider>

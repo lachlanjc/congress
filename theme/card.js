@@ -1,10 +1,9 @@
 const { createElement: h } = require('react')
 
-const width = 512
-const widthIcon = 0.75 * width
+const width = 1024
 const padding = 0.125 * width
 
-module.exports = props =>
+module.exports = () =>
   h(
     'div',
     {
@@ -13,13 +12,27 @@ module.exports = props =>
         margin: 0,
         padding,
         width,
-        height: width,
-        backgroundColor: '#9500ff',
-        backgroundImage: 'linear-gradient(64deg, #7a6fff, #9500ff)'
+        height: width / 2,
+        backgroundImage: 'url(https://congress.now.sh/static/hero.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center'
       }
     },
-    h('img', {
-      src: 'https://icon.now.sh/ring_volume/ffffff',
-      style: { width: widthIcon }
-    })
+    h(
+      'h1',
+      {
+        style: {
+          fontFamily: 'gt-america-bold',
+          fontSize: 128,
+          color: 'white',
+          textAlign: 'center',
+          textShadow: '0 3px 6px rgba(0, 0, 0, .5)'
+        }
+      },
+      'Congress'
+    )
   )

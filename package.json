@@ -26,7 +26,7 @@
   "scripts": {
     "dev": "next",
     "fmt": "prettier --write '{components,data,pages,theme}/**/*.js'",
-    "card": "npx repng theme/card.js -w 512 -h 512 -o static -f card",
+    "card": "repng theme/card.js -w 1024 -h 512 -d static -f card.png --webfont static/gt-america-bold.woff",
     "download": "node data/download.js",
     "build": "next build",
     "start": "next start"

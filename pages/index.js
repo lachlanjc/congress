@@ -23,6 +23,7 @@ export default () => (
   <ThemeProvider>
     <BackgroundImage
       src="/static/hero.jpg"
+      aria-label="Front view of capitol building"
       bg="primary"
       py={[5, 6]}
       px={2}

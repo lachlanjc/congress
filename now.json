@@ -1,6 +1,0 @@
-{
-  "version": 2,
-  "alias": "congress",
-  "name": "congress",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
-}

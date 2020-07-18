@@ -5,17 +5,17 @@
   "author": "Lachlan Campbell",
   "private": true,
   "dependencies": {
-    "@hackclub/design-system": "^0.0.1-16",
-    "async-retry": "^1.2.3",
-    "axios": "^0.19.0",
+    "@hackclub/design-system": "^0.0.1-18",
+    "async-retry": "^1.3.1",
+    "axios": "^0.19.2",
     "comma-number": "^2.0.1",
     "load-json-file": "^6.2.0",
     "lodash": "^4.17.19",
-    "neat-csv": "^5.1.0",
-    "next": "^9.0.3",
+    "neat-csv": "^5.2.0",
+    "next": "^9.4.4",
     "respin": "^1.0.1",
     "styled-components": "^3.4.9",
-    "write-json-file": "^4.2.0"
+    "write-json-file": "^4.3.0"
   },
   "homepage": "https://congress.now.sh/",
   "license": "MIT",

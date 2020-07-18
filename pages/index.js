@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import ThemeProvider from '../theme'
 import {
   Container,
   BackgroundImage,
@@ -20,7 +19,7 @@ const Mark = styled(Text.withComponent('mark'))`
 `
 
 export default () => (
-  <ThemeProvider>
+  <>
     <BackgroundImage
       src="/static/hero.jpg"
       aria-label="Front view of capitol building"
@@ -74,5 +73,5 @@ export default () => (
       </Card>
     </Container>
     <Footer />
-  </ThemeProvider>
+  </>
 )

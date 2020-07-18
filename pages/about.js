@@ -1,11 +1,10 @@
 import React from 'react'
-import ThemeProvider from '../theme'
 import Link from '../theme/link'
-import { Container, Heading, Text, Box, Divider } from '@hackclub/design-system'
+import { Container, Heading, Text, Box } from '@hackclub/design-system'
 import Bio from '../components/Bio'
 
 export default () => (
-  <ThemeProvider>
+  <>
     <Box bg="primary" color="white" py={4}>
       <Container maxWidth={40} py={5} px={3}>
         <Heading.h1 fontSize={[5, 6]} fontWeight={900}>
@@ -18,14 +17,13 @@ export default () => (
       </Container>
     </Box>
     <Container maxWidth={40} py={4} px={3}>
-      <Text fontSize={3} my={3}>
+      <Text fontSize={3} mt={3} mb={4}>
         Using data from the Center for Responsive Politics and
         theunitedstates.io. Started at CodeDay DC 2018. Totally open source.
         Built with React, Next.js, styled-components, and the Hack Club Design
         System.
       </Text>
-      <Divider my={4} />
       <Bio />
     </Container>
-  </ThemeProvider>
+  </>
 )

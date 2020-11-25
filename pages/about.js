@@ -1,9 +1,9 @@
-import React from 'react'
 import Link from '../theme/link'
 import { Container, Heading, Text, Box } from '@hackclub/design-system'
 import Bio from '../components/Bio'
+import Divider from '../components/Divider'
 
-export default () => (
+const About = () => (
   <>
     <Box bg="primary" color="white" py={4}>
       <Container maxWidth={40} py={5} px={3}>
@@ -27,3 +27,5 @@ export default () => (
     </Container>
   </>
 )
+
+export default About

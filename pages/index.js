@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import {
   Container,
@@ -18,7 +17,7 @@ const Mark = styled(Text.withComponent('mark'))`
   color: inherit;
 `
 
-export default () => (
+const Home = () => (
   <>
     <BackgroundImage
       src="/static/hero.jpg"
@@ -75,3 +74,5 @@ export default () => (
     <Footer />
   </>
 )
+
+export default Home

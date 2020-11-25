@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Text, Divider, Link as A } from '@hackclub/design-system'
+import { Container, Text, Link as A } from '@hackclub/design-system'
+import Divider from './Divider'
 import Link from '../theme/link'
 
 const Footer = () => (

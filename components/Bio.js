@@ -4,7 +4,7 @@ import { Flex, Avatar, Text, Link } from '@hackclub/design-system'
 const Bio = () => (
   <Flex align="center" my={2}>
     <Avatar
-      src="//lachlanjc.me/static/portrait-96.jpg"
+      src="https://github.com/lachlanjc.png"
       alt="Lachlan Campbell"
       size="48px"
       mr={3}

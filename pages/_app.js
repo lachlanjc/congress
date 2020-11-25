@@ -18,7 +18,7 @@ export default class extends App {
     const { Component, pageProps } = this.props
 
     return (
-      <Container>
+      <>
         <Head>
           <title children={title} />
           {meta([
@@ -37,7 +37,7 @@ export default class extends App {
         <ThemeProvider>
           <Component {...pageProps} />
         </ThemeProvider>
-      </Container>
+      </>
     )
   }
 }

@@ -11,7 +11,7 @@ export const grays = {
   silver: palette.gray[7],
   smoke: palette.gray[2],
   snow: palette.gray[0],
-  white: '#ffffff'
+  white: '#ffffff',
 }
 
 export const brand = {
@@ -27,13 +27,13 @@ export const brand = {
   dem: palette.blue[5],
   rep: palette.red[5],
   ind: palette.violet[5],
-  lib: palette.orange[5]
+  lib: palette.orange[5],
 }
 
 export const colors = {
   ...brand,
   ...grays,
-  ...palette
+  ...palette,
 }
 
 export const font =
@@ -42,44 +42,44 @@ export const font =
 const theme = {
   ...base,
   colors,
-  font
+  font,
 }
 
 export default theme
 
 injectGlobal`
   @font-face {
-    src: url('/static/gt-america-ultralight.woff') format('woff');
+    src: url('/fonts/gt-america-ultralight.woff') format('woff');
     font-family: GT-America;
     font-weight: 100;
   }
   @font-face {
-    src: url('/static/gt-america-thin.woff') format('woff');
+    src: url('/fonts/gt-america-thin.woff') format('woff');
     font-family: GT-America;
     font-weight: 200;
   }
   @font-face {
-    src: url('/static/gt-america-light.woff') format('woff');
+    src: url('/fonts/gt-america-light.woff') format('woff');
     font-family: GT-America;
     font-weight: 300;
   }
   @font-face {
-    src: url('/static/gt-america-regular.woff') format('woff');
+    src: url('/fonts/gt-america-regular.woff') format('woff');
     font-family: GT-America;
     font-weight: 400;
   }
   @font-face {
-    src: url('/static/gt-america-medium.woff') format('woff');
+    src: url('/fonts/gt-america-medium.woff') format('woff');
     font-family: GT-America;
     font-weight: 500;
   }
   @font-face {
-    src: url('/static/gt-america-bold.woff') format('woff');
+    src: url('/fonts/gt-america-bold.woff') format('woff');
     font-family: GT-America;
     font-weight: 700;
   }
   @font-face {
-    src: url('/static/gt-america-black.woff') format('woff');
+    src: url('/fonts/gt-america-black.woff') format('woff');
     font-family: GT-America;
     font-weight: 900;
   }

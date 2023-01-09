@@ -11,7 +11,7 @@ const meta = (tags) =>
 
 const title = 'Call to Action'
 const description = 'Work in progress'
-const img = '/static/card.png'
+const img = '/card.png'
 
 export default class extends App {
   render() {

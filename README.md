@@ -1,7 +1,7 @@
-# Congress
+# Call to Action 2
 
-Work in progress
+The technical & spiritual successor to [Call to Action 1](https://github.com/lachlanjc/calltoaction).
 
-[**congress.now.sh**](https://congress.now.sh)
+[**calltoaction.vercel.app**](https://calltoaction.vercel.app)
 
 MIT License

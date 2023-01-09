@@ -13,14 +13,14 @@ module.exports = () =>
         padding,
         width,
         height: width / 2,
-        backgroundImage: 'url(https://congress.now.sh/static/hero.jpg)',
+        backgroundImage: 'url(https://calltoaction.vercel.app/hero.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center'
-      }
+        justifyContent: 'center',
+      },
     },
     h(
       'h1',
@@ -30,8 +30,8 @@ module.exports = () =>
           fontSize: 128,
           color: 'white',
           textAlign: 'center',
-          textShadow: '0 3px 6px rgba(0, 0, 0, .5)'
-        }
+          textShadow: '0 3px 6px rgba(0, 0, 0, .5)',
+        },
       },
       'Congress'
     )

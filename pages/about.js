@@ -1,7 +1,6 @@
 import Link from '../theme/link'
 import { Container, Heading, Text, Box } from '@hackclub/design-system'
 import Bio from '../components/Bio'
-import Divider from '../components/Divider'
 
 const About = () => (
   <>

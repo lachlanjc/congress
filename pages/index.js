@@ -5,7 +5,7 @@ import {
   Heading,
   Text,
   Card,
-  Link as A
+  Link as A,
 } from '@hackclub/design-system'
 import Search from '../components/Search'
 import Footer from '../components/Footer'
@@ -23,14 +23,14 @@ const Home = () => (
       src="/static/hero.jpg"
       aria-label="Front view of capitol building"
       bg="primary"
-      py={[5, 6]}
+      py={[5, 6, 7]}
       px={2}
       align="center"
     >
       <Heading.h1 color="white" fontSize={6} mt={0}>
         Let’s <Mark>take back</Mark> Congress.
       </Heading.h1>
-      <Container width={1} maxWidth={36}>
+      <Container width={1} maxWidth={40}>
         <Heading.h2 color="white" fontSize={[3, 4]} my={3} regular>
           Our members of Congress work for us, the people. But they’re only
           listening to their big donors.
@@ -39,7 +39,7 @@ const Home = () => (
         </Heading.h2>
       </Container>
     </BackgroundImage>
-    <Container width={1} maxWidth={36} py={[4, 5]} px={3}>
+    <Container width={1} maxWidth={40} py={[4, 5]} px={3}>
       <Heading.h2 fontSize={4} mb={2}>
         Find out who represents you
       </Heading.h2>

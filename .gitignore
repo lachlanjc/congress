@@ -1,4 +1,4 @@
 node_modules
 out
 .next
-data/contribs/*.json
+data/contribs/

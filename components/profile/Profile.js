@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import { Card, Avatar, Heading, Text, Box, Flex } from '@hackclub/design-system'
 import Contact from './Contact'
 import Contribs from './Contribs'
-import { lowerCase, random } from 'lodash'
+import { lowerCase } from 'lodash'
 
-const getYear = date => date.slice(0, 4)
+const getYear = (date) => date.slice(0, 4)
 
 const Profile = ({ data, ...props }) => (
   <Card bg="white" p={[3, 4]} mx={[-3, -4]} boxShadowSize="md" {...props}>
@@ -15,9 +15,7 @@ const Profile = ({ data, ...props }) => (
       </BadgeContainer>
       <Avi
         size={64}
-        src={`https://theunitedstates.io/images/congress/225x275/${
-          data.ids.bioguide
-        }.jpg`}
+        src={`https://theunitedstates.io/images/congress/225x275/${data.ids.bioguide}.jpg`}
         mr={3}
       />
       <Box align="left">
@@ -32,7 +30,6 @@ const Profile = ({ data, ...props }) => (
     <Contribs data={data.contribs} id={data.ids.opensecrets} />
     <Contact
       phone={data.contact.phone}
-      callCount={random(4, 64)}
       form={data.contact.form}
       twitter={data.contact.twitter}
       facebook={data.contact.facebook}

@@ -1,15 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import ThemeProvider from '../theme'
 
-const meta = tags =>
+const meta = (tags) =>
   tags.map((m, i) => {
     m.key = i
     return React.createElement('meta', m, null)
   })
 
-const title = 'Congress'
+const title = 'Call to Action'
 const description = 'Work in progress'
 const img = '/static/card.png'
 
@@ -31,7 +31,7 @@ export default class extends App {
             { property: 'og:description', content: description },
             { property: 'og:image', content: img },
             { property: 'og:image:height', content: 512 },
-            { property: 'og:image:width', content: 512 }
+            { property: 'og:image:width', content: 512 },
           ])}
         </Head>
         <ThemeProvider>

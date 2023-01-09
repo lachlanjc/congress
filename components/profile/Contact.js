@@ -1,15 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Link, Text, IconButton, Button } from '@hackclub/design-system'
+import { Flex, Link, IconButton, Button } from '@hackclub/design-system'
 
 const Base = styled(Flex)`
   line-height: 0;
 `
 
-const Contact = ({ phone, callCount, form, twitter, facebook, ...props }) => (
+const Contact = ({ phone, form, twitter, facebook, ...props }) => (
   <Base mt={3} mr={[-1, -2]} align="center" {...props}>
     {phone && <Phone data={phone} />}
-    {callCount && <Calling data={phone} count={callCount} />}
     {form && <Form data={form} />}
     {twitter && <Twitter data={twitter} />}
     {facebook && <Facebook data={facebook} />}
@@ -31,7 +30,7 @@ const Item = ({ href, label, icon, bg = 'brand', ...props }) => (
   />
 )
 
-const tel = data => `tel:${data.match(/\d+/g).join('')}`
+const tel = (data) => `tel:${data.match(/\d+/g).join('')}`
 const Phone = ({ data }) => (
   <Button
     href={tel(data)}
@@ -43,16 +42,6 @@ const Phone = ({ data }) => (
   </Button>
 )
 const FlexLink = Flex.withComponent(Link)
-const Calling = ({ count, data }) => (
-  <FlexLink flex="1 1 auto" align="center" href={tel(data)} px={[2, 3]}>
-    <Text.span fontSize={3} color="brand" bold>
-      {count}
-    </Text.span>
-    <Text.span ml={1} mt={1} fontSize={0} color="muted" caps>
-      calling
-    </Text.span>
-  </FlexLink>
-)
 
 const Form = ({ data }) => (
   <Item href={data} label="Contact" icon="message" bg="warning" />
